@@ -5,18 +5,21 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Sprint!
 description: Use the arrow keys to get to the finish line as quickly as you can.
 original_url: https://codeclubprojects.org/en-GB/scratch/sprint
-interests: ''
+interests: games
 technologies: scratch
-site_areas: codeclub, scratch
-steps:
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps: 
 - title: Introduction
 - title: On your marks...
 - title: Going the distance
 - title: Who is the fastest?
 - title: Adding scenery
 - title: 'Challenge: Add a spectator'
-
