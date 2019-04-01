@@ -4,23 +4,15 @@ Let's move the finish line when the arrow keys are pressed.
 
 --- task ---
 
-You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="blockdata"}.
+You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
-
---- /task ---
-
---- task ---
-
-You should see your new variable on the stage. Right-click the variable and select 'large readout'.
-
-![distance variable menu](images/sprint-distance-dispaly.png)
+[[[generic-scratch3-add-variable]]]
 
 --- /task ---
 
 --- task ---
 
-Drag your variable to the bottom of the stage.
+You should see your new variable on the stage. Drag it to the top-right corner.
 
 ![screenshot](images/sprint-distance-drag.png)
 
@@ -28,11 +20,11 @@ Drag your variable to the bottom of the stage.
 
 --- task ---
 
-Set the `distance`{:class="blockdata"} to 0 when the flag is clicked.
+Set the `distance`{:class="block3variables"} to 0 when the flag is clicked.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 +set [distance v] to [0]
 go to x: (0) y: (30)
@@ -47,7 +39,7 @@ Once your race starts, your player should sprint __until they have run 100 meter
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
 end 
@@ -61,10 +53,10 @@ Add code so that your finish line gets a little bigger after the player presses 
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
-+wait until <key [left arrow v] pressed?>
++wait until <key (left arrow v) pressed?>
 + change size by (1)
 + change [distance v] by (1)
 end 
@@ -86,10 +78,10 @@ To fix this, you can add code to move the finish line down slightly each time a 
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
-wait until <key [left arrow v] pressed?>
+wait until <key (left arrow v) pressed?>
 change size by (1)
 +change y by (-1.5)
 change [distance v] by (1)
@@ -100,7 +92,7 @@ end
 
 --- task ---
 
-Test your project again and you shoud see the finish line move down the stage towards you.
+Test your project again and you should see the finish line move down the stage towards you.
 
 ![finish lines moves down the road](images/sprint-line-fix-test.png)
 
@@ -112,14 +104,14 @@ You should then do the same for the right arrow key.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
-wait until <key [left arrow v] pressed?>
+wait until <key (left arrow v) pressed?>
 change size by (1)
 change y by (-1.5)
 change [distance v] by (1)
-+wait until <key [right arrow v] pressed?>
++wait until <key (right arrow v) pressed?>
 +change size by (1)
 +change y by (-1.5)
 +change [distance v] by (1)
@@ -142,25 +134,25 @@ You can switch to the 'broken' costume (and end the game) at the end of the race
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
-wait until <key [left arrow v] pressed?>
+wait until <key (left arrow v) pressed?>
 change size by (1)
 change y by (-1.5)
 change [distance v] by (1)
-wait until <key [right arrow v] pressed?>
+wait until <key (right arrow v) pressed?>
 change size by (1)
 change y by (-1.5)
 change [distance v] by (1)
 end 
-+switch costume to [broken v]
++switch costume to (broken v)
 +stop [all v]
 ```
 
-```blocks
+```blocks3
 when green flag clicked
-+switch costume to [normal v]
++switch costume to (normal v)
 set [distance v] to [0]
 ```
 
@@ -168,16 +160,16 @@ set [distance v] to [0]
 
 --- task ---
 
-If you want to play a sound at the end, you'll have change your `stop all`{:class="blockcontrol"} block to `stop other scripts in sprite`{:class="blockcontrol"}.
+If you want to play a sound at the end, you'll have change your `stop all`{:class="block3control"} block to `stop other scripts in sprite`{:class="block3control"}.
 
 This means that the timer you'll create will stop counting, but the sound will still play.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
-switch costume to [broken v]
+```blocks3
+switch costume to (broken v)
 + stop [other scripts in sprite v]
-+ play sound [cheer v]
++ start sound (cheer v)
 ```
 
 --- /task ---
@@ -192,9 +184,9 @@ Here's the code you'll need to add:
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
-wait until <key [left arrow v] pressed?>
-+wait until <not <key [left arrow v] pressed?>>
+```blocks3
+wait until <key (left arrow v) pressed?>
++wait until <not <key (left arrow v) pressed?>>
 change size by (1)
 ```
 
@@ -202,8 +194,8 @@ You'll need to do the same for the right arrow key.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
-wait until <not <key [right arrow v] pressed?>>
+```blocks3
+wait until <not <key (right arrow v) pressed?>>
 ```
 
 --- /task ---

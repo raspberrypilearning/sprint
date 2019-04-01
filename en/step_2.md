@@ -5,7 +5,7 @@ Let's start by creating a race countdown.
 --- task ---
 Open the 'Sprint' Scratch starter project.
 
-**Online**: open the [starter project](http://jumpto.cc/sprint-resources){:target="_blank"}.
+**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
 
 **Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
@@ -23,7 +23,7 @@ To start with, let's put the finish line on the horizon:
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 go to x: (0) y: (30)
 set size to (1) %
@@ -35,46 +35,43 @@ set size to (1) %
 
 If you click the flag to test your code, you'll see your finish line in the distance.
 
-![finish line in the distance](images/sprint-line-start-test.png)
+![finish line in the distance](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="blocklooks"} blocks to create a countdown, and then broadcast a `start`{:class="blockevents"} message.
+Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 go to x: (0) y: (30)
 set size to (1) %
-+say [3] for (1) secs
-+say [2] for (1) secs
-+say [1] for (1) secs
-+broadcast [start v]
++say [3] for (1) seconds
++say [2] for (1) seconds
++say [1] for (1) seconds
++broadcast (start v)
 ```
 
 --- /task ---
 
 --- task ---
 
-You can also add sounds to your countdown.
+You can also add a sound to your countdown.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 go to x: (0) y: (30)
 set size to (1) %
-+play sound [snap v]
-say [3] for (1) secs
-+play sound [snap v]
-say [2] for (1) secs
-+play sound [snap v]
-say [1] for (1) secs
-+play sound [gong v]
-broadcast [start v]
+say [3] for (1) seconds
+say [2] for (1) seconds
+say [1] for (1) seconds
++start sound (Siren Whistle v)
+broadcast (start v)
 ```
 
 --- /task ---

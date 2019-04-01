@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
@@ -5,7 +11,7 @@ You are going to learn how to create your own sprint game, in which you have to 
 --- no-print ---
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/85609372/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/298930696/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/sprint-final.png">
 </div>
 
@@ -30,7 +36,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -44,7 +50,9 @@ The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_
 title: What you will learn
 ---
 
-- How to create a Scratch project
+- How to animate sprites
+- How to use keyboard input
+- How to use broadcasts
 
 --- /collapse ---
 

@@ -8,8 +8,9 @@ First, position the tree and make it small when the flag is clicked.
 
 ![tree sprite](images/tree-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
+show
 go to x: (-50) y: (20)
 set size to (1) %
 ```
@@ -23,7 +24,7 @@ Once the race starts, the tree should move until the player has sprinted 100 met
 
 ![tree sprite](images/tree-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
 end
@@ -38,11 +39,11 @@ Once the left key has been pressed (and released), the tree should get bigger an
 
 ![tree sprite](images/tree-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
-+wait until <key [left arrow v] pressed?>
-+wait until <not  <key [left arrow v] pressed?>>
++wait until <key (left arrow v) pressed?>
++wait until <not  <key (left arrow v) pressed?>>
 +change size by (1)
 +change y by (-1.5)
 end
@@ -64,11 +65,11 @@ To fix this, add code to make your tree move away from the track slightly.
 
 ![tree sprite](images/tree-sprite.png)
 
-```blocks
+```blocks3
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
-wait until <key [left arrow v] pressed?>
-wait until <not  <key [left arrow v] pressed?>>
+wait until <key (left arrow v) pressed?>
+wait until <not  <key (left arrow v) pressed?>>
 change size by (1)
 change y by (-1.5)
 +change x by (-2)
@@ -83,20 +84,21 @@ You should also do the same for the right arrow key. Here's how your Tree's code
 
 ![tree sprite](images/tree-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
+show
 go to x: (-50) y: (20)
 set size to (1) %
 
 when I receive [start v]
 repeat until <(distance :: variables) = [100]>
-wait until <key [left arrow v] pressed?>
-wait until <not  <key [left arrow v] pressed?>>
+wait until <key (left arrow v) pressed?>
+wait until <not  <key (left arrow v) pressed?>>
 change size by (1)
 change y by (-1.5)
 change x by (-2)
-wait until <key [right arrow v] pressed?>
-wait until <not  <key [right arrow v] pressed?>>
+wait until <key (right arrow v) pressed?>
+wait until <not  <key (right arrow v) pressed?>>
 change size by (1)
 change y by (-1.5)
 change x by (-2)
