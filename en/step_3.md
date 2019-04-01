@@ -6,7 +6,7 @@ Let's move the finish line when the arrow keys are pressed.
 
 You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="blockdata"}.
 
-![create new variable dialog](images/sprint-distance-create.png)
+[[[generic-scratch-add-variable]]]
 
 --- /task ---
 
