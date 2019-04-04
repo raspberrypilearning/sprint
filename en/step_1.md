@@ -1,69 +1,74 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
 
+--- no-print ---
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/85609372/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/298930696/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/sprint-final.png">
 </div>
 
-### Additional information for club leaders
+--- /no-print ---
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/sprint/print).
+--- print-only ---
+
+![complete project](images/sprint-final.png)
+
+--- /print-only ---
 
 
 --- collapse ---
+
 ---
-title: Club leader notes
+title: What you will need
 ---
 
+### Hardware
 
-## Introduction:
-In this project, children will learn how to create a running game with a 3D perspective. Players will repeatedly press the left and right arrow keys to run 100 meters as quickly as they can.
++ A computer capable of running Scratch
 
-## Resources
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+### Software
 
-The 'Project Materials' link for this project contains the following resources:
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-##### Club leader Resources
+### Downloads
 
-You can find a completed version of this project <a href="http://scratch.mit.edu/projects/85609372/#editor">online</a>, or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_blank"}.
 
-+ Sprint.sb2
+--- /collapse ---
 
-##### Project Resources
+--- collapse ---
 
-For this project, club members can make use of a Scratch project containing the required resources. This project is available at [jumpto.cc/sprint-resources](http://jumpto.cc/sprint-resources), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+---
+title: What you will learn
+---
 
-+ SprintResources.sb2
+- How to animate sprites
+- How to use keyboard input
+- How to use broadcasts
 
-Make sure that each child has access to a copy of these resources.
+--- /collapse ---
 
-## Learning Objectives
-+ Repetition (the `repeat until`{:class="blockcontrol"} block).
+--- collapse ---
+---
+title: Additional information for educators
+---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+--- no-print ---
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
 
-## Challenges
-+ "Add a spectator" - Create a spectator that moves towards the player until they've sprinted 100 meters.
+--- /no-print ---
 
+You can [find the solution for this project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
 
---- collapse ---
----
-title: Project materials
----
-## Project resources
-* [Online Scratch 2 project containing external resources](http://jumpto.cc/sprint-resources)
-* [Downloadable Scratch 2 project containing external resources](resources/SprintResources.sb2)
-
-## Club leader resources
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/85609372/#editor)
-* [Downloadable completed Scratch 2 project](resources/Sprint.sb2)
-
---- /collapse ---
