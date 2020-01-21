@@ -3,6 +3,7 @@
 Let's start by creating a race countdown.
 
 --- task ---
+
 Open the 'Sprint' Scratch starter project.
 
 **Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.

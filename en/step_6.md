@@ -1,4 +1,5 @@
 --- challenge ---
+
 ## Challenge: Add a spectator
 
 Your project includes a couple of spectator sprites – click the ‘show’ icon for one to display it on the stage. 

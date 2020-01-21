@@ -25,7 +25,6 @@ You are going to learn how to create your own sprint game, in which you have to 
 
 
 --- collapse ---
-
 ---
 title: What you will need
 ---
@@ -45,7 +44,6 @@ The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: What you will learn
 ---
