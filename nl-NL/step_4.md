@@ -1,20 +1,20 @@
-## Who is the fastest?
+## Wie is de snelste?
 
-Let's add a timer to your game, to see who can sprint the fastest.
+Laten we een timer aan je spel toevoegen om te zien wie het snelst kan sprinten.
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+Maak een nieuwe `tijd`{:class="block3variables"} variabele. Het zal op het speelveld verschijnen. Sleep het naar de linkerbovenhoek.
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![tijd variabele in het midden van het speelveld](images/sprint-timer-create.png)
 
 --- /task ---
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+Stel de tijd aan het begin van je spel in op 0.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -29,9 +29,9 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+Voeg deze code toe om je timer te laten tellen wanneer het spel begint.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+Test je project door op de groene vlag te klikken. Je zou moeten zien dat je timer optelt totdat je 100 meter hebt gesprint.
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![tijd en afstand variabelen op het speelveld](images/sprint-timer-test.png)
 
 --- /task ---
 
