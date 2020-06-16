@@ -1,7 +1,7 @@
 ---
 title: Sprint!
 hero_image: images/banner.png
-description: Use the arrow keys to get to the finish line as quickly as you can.
+description: Gebruik de pijltjestoetsen om zo snel mogelijk naar de finish te komen.
 listed: true
 ingredient: false
 copyedit: true
@@ -9,17 +9,17 @@ version: 4
 last_tested: 2019-04-01
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: On your marks...
+    title: Op uw plaatsen...
   - 
-    title: Going the distance
+    title: De afstand afleggen
   - 
-    title: Who is the fastest?
+    title: Wie is de snelste?
   - 
-    title: Adding scenery
+    title: Landschap toevoegen
   - 
-    title: 'Challenge: Add a spectator'
+    title: 'Uitdaging: voeg een toeschouwer toe'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Wat kun je verder nog doen?'
