@@ -1,9 +1,9 @@
-start
+إبدأ
 
-distance
+المسافة
 
-broken
+مقطوع
 
-normal
+عادي
 
-time
+الوقت
