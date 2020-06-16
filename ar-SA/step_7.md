@@ -1,10 +1,10 @@
-## What next?
+## ما التالي؟
 
-Take a look at the [Beat the goalie](https://projects.raspberrypi.org/en/projects/beat-the-goalie) Scratch project.
+ألق نظرة على مشروع [حارس المرمى](https://projects.raspberrypi.org/en/projects/beat-the-goalie) في برنامج Scratch.
 
 --- no-print ---
 
-Click the green flag to begin. Use the left and right arrow keys to control the goalie and press <kbd>space</kbd> to kick the ball.
+انقر على العلم الأخضر للبدء. استخدم مفاتيح الأسهم اليمنى واليسرى للتحكم بحارس المرمى، واضغط على <kbd>مسافة</kbd> لركل الكرة.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/285942132/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,6 +14,6 @@ Click the green flag to begin. Use the left and right arrow keys to control the 
 
 --- print-only ---
 
-![game screenshot](images/goalie-final.png)
+![لقطة شاشة للعبة](images/goalie-final.png)
 
 --- /print-only ---
