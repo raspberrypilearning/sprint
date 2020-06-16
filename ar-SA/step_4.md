@@ -1,20 +1,20 @@
-## Who is the fastest?
+## من هو الأسرع؟
 
-Let's add a timer to your game, to see who can sprint the fastest.
+دعنا نضيف مؤقتًا إلى لعبتك ، لمعرفة من بامكانه الركض اسرع.
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+قم بإنشاء متغير جديد بالاسم ` وقت `{:class="block3variables"}. سوف يظهر على الشاشة. اسحبه إلى الزاوية الاعلى اليمنى.
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![متغير الوقت في وسط الشاشة](images/sprint-timer-create.png)
 
 --- /task ---
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+اضبط الوقت على 0 في بداية اللعبة.
 
-![finish line sprite](images/finish-line-sprite.png)
+![خط النهاية](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -29,9 +29,9 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+أضف هذا الكود البرمجي لجعل عداد الوقت الخاص بك يبدأ الحساب عند بدء اللعبة.
 
-![finish line sprite](images/finish-line-sprite.png)
+![خط النهاية](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+اختبر برنامجك بالنقر على العلم الأخضر. من المفترض أن ترى أن عداد الوقت يحسب حتى مسافة 100 متر.
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![متغيرات الوقت والمسافة على الشاشة](images/sprint-timer-test.png)
 
 --- /task ---
 
