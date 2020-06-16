@@ -1,12 +1,12 @@
-## Adding scenery
+## Landschap toevoegen
 
-Let's code a tree to move as the player sprints.
+Laten we een boom coderen om te bewegen terwijl de speler sprint.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+Plaats eerst de boom en maak deze klein wanneer op de vlag wordt geklikt.
 
-![tree sprite](images/tree-sprite.png)
+![boom sprite](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+Zodra de race begint, moet de boom bewegen totdat de speler 100 meter heeft gesprint.
 
-![tree sprite](images/tree-sprite.png)
+![boom sprite](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+Zodra de linkertoets is ingedrukt (en losgelaten), moet de boom groter worden en bewegen - net als de eindstreep.
 
-![tree sprite](images/tree-sprite.png)
+![boom sprite](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+Als je je boom test, zul je zien dat hij naar beneden beweegt, de weg op.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![boom verplaatst naar de weg](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+Om dit te verhelpen, voeg je code toe om je boom een beetje van de weg af te laten bewegen.
 
-![tree sprite](images/tree-sprite.png)
+![boom sprite](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+Je moet dan hetzelfde doen voor de rechterpijltoets. Zo zou de code van je Boom eruit moeten zien:
 
-![tree sprite](images/tree-sprite.png)
+![boom sprite](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
