@@ -1,12 +1,12 @@
-## Adding scenery
+## إضافة مشهد
 
-Let's code a tree to move as the player sprints.
+دعونا نبرمج شجرة تتحرك عند حركة اللاعب.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+أولاً ، ضع الشجرة واجعلها صغيرة عند النقر على العلم.
 
-![tree sprite](images/tree-sprite.png)
+![شجرة](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+حالما يبدأ السباق، ينبغي أن تتحرك الشجرة إلى أن يقوم اللاعب بقطع مسافة 100 متر.
 
-![tree sprite](images/tree-sprite.png)
+![شجرة](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+بمجرد الضغط على المفتاح الأيسر (وتركه) ، ستكبر الشجرة وتتحرك - تمامًا كخط النهاية.
 
-![tree sprite](images/tree-sprite.png)
+![شجرة](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+إذا اختبرت شجرتك ، سترى أنها تتحرك لأسفل على طول الطريق.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![شجرة منقولة للمسار](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+لإصلاح ذلك ، أضف كود برمجي لجعل الشجرة تتحرك بعيدًا عن المسار قليلاً.
 
-![tree sprite](images/tree-sprite.png)
+![شجرة](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+يجب عليك أن تفعل نفس الشيء لمفتاح السهم الأيمن. هذا ما ينبغي ان تبدو عليه تعليماتك البرمجية الخاصة بالشجرة:
 
-![tree sprite](images/tree-sprite.png)
+![شجرة](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
