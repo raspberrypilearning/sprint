@@ -1,9 +1,9 @@
 start
 
-distance
+afstand
 
-broken
+kapot
 
-normal
+normaal
 
-time
+tijd
