@@ -1,10 +1,10 @@
-## Going the distance
+## De afstand afleggen
 
-Let's move the finish line when the arrow keys are pressed.
+Laten we de eindstreep verplaatsen als de pijltjestoetsen worden ingedrukt.
 
 --- task ---
 
-You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="block3variables"}.
+Je wilt de speler toestaan om op de pijltjestoetsen te drukken __totdat ze 100 meter hebben afgelegd__. Maak hiervoor een nieuwe variabele met de naam `afstand`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,17 +12,17 @@ You want to allow the player to press the arrow keys __until they have run 100 m
 
 --- task ---
 
-You should see your new variable on the stage. Drag it to the top-right corner.
+Je zou je nieuwe variabele op het speelveld moeten zien. Sleep het naar de rechterbovenhoek.
 
-![screenshot](images/sprint-distance-drag.png)
+![schermafbeelding](images/sprint-distance-drag.png)
 
 --- /task ---
 
 --- task ---
 
-Set the `distance`{:class="block3variables"} to 0 when the flag is clicked.
+Stel de `afstand`{:class="block3variables"} in op 0 wanneer op de vlag wordt geklikt.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -35,9 +35,9 @@ set size to (1) %
 
 --- task ---
 
-Once your race starts, your player should sprint __until they have run 100 meters__.
+Zodra je race begint, moet je speler sprinten __totdat ze 100 meter hebben gerend__.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -49,9 +49,9 @@ end
 
 --- task ---
 
-Add code so that your finish line gets a little bigger after the player presses the left arrow key. The distance should also increase.
+Voeg code toe zodat je eindstreep een beetje groter wordt nadat de speler op de linkerpijltoets heeft gedrukt. De afstand moet ook groter worden.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -66,17 +66,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. You should see that the finish line gets bigger when the left arrow is pressed, but doesn't move along the track.
+Klik op de groene vlag om je project te testen. Je zou moeten zien dat de eindstreep groter wordt wanneer de linkerpijl wordt ingedrukt, maar niet beweegt over de weg.
 
-![finish line is bigger but in the same place](images/sprint-line-bug.png)
+![eindstreep is groter maar op dezelfde plaats](images/sprint-line-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, you can add code to move the finish line down slightly each time a key is pressed.
+Om dit op te lossen, kun je code toevoegen om de eindstreep elke keer dat je op een toets drukt iets naar beneden te verplaatsen.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -92,17 +92,17 @@ end
 
 --- task ---
 
-Test your project again and you should see the finish line move down the stage towards you.
+Test je project opnieuw en je zou de eindstreep over het speelveld naar je toe moeten zien bewegen.
 
-![finish lines moves down the road](images/sprint-line-fix-test.png)
+![eindstrepen bewegen over de weg](images/sprint-line-fix-test.png)
 
 --- /task ---
 
 --- task ---
 
-You should then do the same for the right arrow key.
+Je moet dan hetzelfde doen voor de rechterpijltoets.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -122,17 +122,17 @@ end
 
 --- task ---
 
-If you click to see the finish line's costumes, you should see that there are 2.
+Als je klikt om de uiterlijken van de eindstreep te zien, zou je moeten zien dat er 2 zijn.
 
-![2 costumes](images/sprint-line-costumes.png)
+![2 uiterlijken](images/sprint-line-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can switch to the 'broken' costume (and end the game) at the end of the race. Remember to switch to the 'normal' costume at the start of the race!
+Je kunt overschakelen naar het 'kapot' uiterlijk (en het spel beëindigen) aan het einde van de race. Vergeet niet om aan het begin van de race naar het 'normaal' uiterlijk over te schakelen!
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -160,11 +160,11 @@ set [distance v] to [0]
 
 --- task ---
 
-If you want to play a sound at the end, you'll have change your `stop all`{:class="block3control"} block to `stop other scripts in sprite`{:class="block3control"}.
+Als je aan het einde een geluid wilt spelen, moet je je `stop alle`{:class="block3control"} blok wijzigen in `stop andere scripts in sprite`{:class="block3control"}.
 
-This means that the timer you'll create will stop counting, but the sound will still play.
+Dit betekent dat de timer die je maakt zal stoppen met tellen maar het geluid blijft spelen.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 switch costume to (broken v)
@@ -174,15 +174,15 @@ switch costume to (broken v)
 
 --- /task ---
 
-Have you noticed that you can cheat your game by just holding down the left and right arrow keys?
+Is het je opgevallen dat je je spel kunt bedriegen door gewoon de linker- en rechterpijltoetsen ingedrukt te houden?
 
 --- task ---
 
-To fix this, you need to make sure that each key is pressed __and then released__ before moving the finish line.
+Om dit te verhelpen, moet je ervoor zorgen dat elke toets wordt ingedrukt __en vervolgens losgelaten__ voordat je de eindstreep verplaatst.
 
-Here's the code you'll need to add:
+Hier is de code die je moet toevoegen:
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <key (left arrow v) pressed?>
@@ -190,9 +190,9 @@ wait until <key (left arrow v) pressed?>
 change size by (1)
 ```
 
-You'll need to do the same for the right arrow key.
+Je moet dan hetzelfde doen voor de rechterpijltoets.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <not <key (right arrow v) pressed?>>
