@@ -1,12 +1,12 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## المقدمة
 
-You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
+سوف تتعلم كيفية إنشاء لعبة الركض الخاصة بك ، حيث يجب عليك استخدام مفتاحي السهم الايمن و الايسر للوصول إلى خط النهاية بأسرع ما يمكن.
 
 --- no-print ---
 
@@ -19,53 +19,53 @@ You are going to learn how to create your own sprint game, in which you have to 
 
 --- print-only ---
 
-![complete project](images/sprint-final.png)
+![المشروع كامل](images/sprint-final.png)
 
 --- /print-only ---
 
 
 --- collapse ---
 ---
-title: What you will need
+title: ما ستحتاج إليه
 ---
 
-### Hardware
+### الأجهزة
 
-+ A computer capable of running Scratch
++ جهاز حاسوب يدعم تشغيل برنامج Scratch
 
-### Software
+### البرامج
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### للتحميل
 
-The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+برنامج البداية ستجدة [هنا ](http://rpf.io/p/en/sprint-go){:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: ما الذي ستتعلمه
 ---
 
-- How to animate sprites
-- How to use keyboard input
-- How to use broadcasts
+- كيفية تحريك الكائنات
+- كيفية استخدام لوحة المفاتيح
+- كيفية استخدام البث
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: معلومات إضافية للمعلمين
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
+إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
