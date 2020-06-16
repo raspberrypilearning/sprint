@@ -1,30 +1,30 @@
-## On your marks...
+## Op uw plaatsen...
 
-Let's start by creating a race countdown.
+Laten we beginnen met het maken van het aftellen voor een race.
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+Open het 'Sprint' Scratch-startproject.
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**Online**: open het [startproject](http://rpf.io/sprint-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**Offline**: open het [startproject](http://rpf.io/p/en/sprint-go){:target="_blank"} in de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a road and finish line.
+In het startproject zou je een weg en eindstreep moeten zien.
 
-![starter projects](images/sprint-starter.png)
+![startprojecten](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+Laten we om te beginnen de eindstreep aan de horizon plaatsen:
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,17 +36,17 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+Als je op de vlag klikt om je code te testen, zie je de eindstreep in de verte.
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![eindstreep in de verte](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+Gebruik vervolgens `zeg`{:class="block3looks"} blokken om een aftelling te maken en zend vervolgens een `start`{:class="block3events"} bericht uit.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+Je kunt ook een geluid toevoegen aan je aftelling.
 
-![finish line sprite](images/finish-line-sprite.png)
+![eindstreep sprite](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
