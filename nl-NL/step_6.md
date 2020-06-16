@@ -1,16 +1,16 @@
 --- challenge ---
 
-## Challenge: Add a spectator
+## Uitdaging: voeg een toeschouwer toe
 
-Your project includes a couple of spectator sprites – click the ‘show’ icon for one to display it on the stage.
+Je project bevat een aantal toeschouwerssprites - klik op het 'toon' pictogram om het op het speelveld weer te geven.
 
-Can you add a spectator to your race? Can you make the spectator cheer when you reach the finish line?
+Kun je een toeschouwer aan je race toevoegen? Kun je de toeschouwer laten juichen als je de eindstreep bereikt?
 
-![a spectator in the game](images/sprint-spectator.png)
+![een toeschouwer in het spel](images/sprint-spectator.png)
 
-Remember that the code you'll need is very similar to the code you've already added to your finish line and your tree.
+Onthoud dat de code die je nodig hebt erg lijkt op de code die je al hebt toegevoegd aan je eindstreep en je boom.
 
-Here are some useful code blocks to help you:
+Hier zijn enkele nuttige codeblokken om je te helpen:
 
 ```blocks3
 when green flag clicked
@@ -33,7 +33,7 @@ change size by (1)
 wait until <key (left arrow v) pressed?>
 ```
 
-If you prefer, you can add another tree instead, or anything else you like!
+Als je wilt, kun je een andere boom toevoegen, of iets anders dat je leuk vindt!
 
 
 --- /challenge ---
