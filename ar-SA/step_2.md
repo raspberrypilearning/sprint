@@ -1,30 +1,30 @@
-## On your marks...
+## استعداد...
 
-Let's start by creating a race countdown.
+هيا لنبدأ بإنشاء عداد تنازلي للسباق.
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+قم بفتح مشروع البدء "السباق" في Scratch.
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**على الإنترنت**: قم بفتح المشروع الاولي[](http://rpf.io/sprint-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على Scratch فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**غير متصل بالانترنت**: افتح [المشروع الاولي](http://rpf.io/p/en/sprint-go){:target="_blank"} عبر المحرر الموجود على جهازك.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اذا كنت بحاجة الى تنزيل وتنصيب محرر Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a road and finish line.
+في المشروع الاولي، سترى خط بداية و نهاية.
 
-![starter projects](images/sprint-starter.png)
+![المشاريع الاولية](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+لكي نبدأ، دعنا نضع خط النهاية في الأفق:
 
-![finish line sprite](images/finish-line-sprite.png)
+![خط النهاية](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,17 +36,17 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+إذا قمت بالنقر فوق العلم لاختبار البرنامج الخاص بك ، سترى خط النهاية الخاص بك في الافق.
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![خط النهاية من بعيد](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+بعد ذلك، استخدم كتلة `قل`{:class="block3looks"} لإنشاء العداد التنازلي، ثم بث رسالة `ابدأ`{:class="block3events"}.
 
-![finish line sprite](images/finish-line-sprite.png)
+![خط النهاية](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+يمكنك أيضًا إضافة صوت إلى العد التنازلي.
 
-![finish line sprite](images/finish-line-sprite.png)
+![خط النهاية](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
