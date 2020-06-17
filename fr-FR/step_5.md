@@ -1,12 +1,12 @@
-## Adding scenery
+## Ajouter des décors
 
-Let's code a tree to move as the player sprints.
+Codons un arbre pour qu'il se déplace pendant que le joueur court.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+Tout d'abord, positionne l'arbre et réduis-le lorsque tu cliques sur le drapeau.
 
-![tree sprite](images/tree-sprite.png)
+![sprite d'arbre](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+Une fois la course commencée, l'arbre doit se déplacer jusqu'à ce que le joueur ait couru 100 mètres.
 
-![tree sprite](images/tree-sprite.png)
+![sprite d'arbre](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+Une fois que la touche gauche a été appuyée (et relâchée), l'arbre devrait devenir plus grand et se déplacer, tout comme la ligne d'arrivée.
 
-![tree sprite](images/tree-sprite.png)
+![sprite d'arbre](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+Si tu testes ton arbre, tu verras qu'il se déplace vers le bas, sur la piste.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![arbre déplacé sur la piste](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+Pour corriger ceci, ajoute du code pour que ton arbre s'éloigne légèrement de la piste.
 
-![tree sprite](images/tree-sprite.png)
+![sprite d'arbre](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+Tu devrais aussi faire la même chose pour la touche fléchée droite. Voici à quoi ton code de l'arbre devrait ressembler :
 
-![tree sprite](images/tree-sprite.png)
+![sprite d'arbre](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
