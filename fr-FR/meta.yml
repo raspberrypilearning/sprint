@@ -1,7 +1,7 @@
 ---
-title: Sprint!
+title: Sprint !
 hero_image: images/banner.png
-description: Use the arrow keys to get to the finish line as quickly as you can.
+description: Utiliser les touches fléchées pour arriver à la ligne d'arrivée le plus rapidement possible.
 listed: true
 ingredient: false
 copyedit: true
@@ -11,15 +11,15 @@ steps:
   - 
     title: Introduction
   - 
-    title: On your marks...
+    title: À vos marques...
   - 
-    title: Going the distance
+    title: Parcourir la distance
   - 
-    title: Who is the fastest?
+    title: Qui est le plus rapide ?
   - 
-    title: Adding scenery
+    title: Ajouter des décors
   - 
-    title: 'Challenge: Add a spectator'
+    title: 'Défi : Ajouter un spectateur'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Que faire ensuite ?'
