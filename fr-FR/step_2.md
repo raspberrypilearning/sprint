@@ -1,30 +1,30 @@
-## On your marks...
+## À vos marques...
 
-Let's start by creating a race countdown.
+Commençons par créer un compte à rebours de la course.
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+Ouvre le projet de démarrage Scratch « Sprint ! ».
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**En ligne** : ouvre le [projet de démarrage](http://rpf.io/sprint-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**Hors ligne**: ouvre le [projet de démarrage](http://rpf.io/p/en/sprint-go){:target="_blank"} dans l'éditeur hors ligne.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a road and finish line.
+Dans le projet de démarrage, tu devrais voir une route et une ligne d'arrivée.
 
-![starter projects](images/sprint-starter.png)
+![projets de démarrage](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+Pour commencer, mettons la ligne d'arrivée à l'horizon:
 
-![finish line sprite](images/finish-line-sprite.png)
+![sprite de la ligne d'arrivée](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,17 +36,17 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+Si tu cliques sur le drapeau pour tester ton code, tu verras ta ligne d'arrivée au loin.
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![ligne d'arrivée au loin](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+Ensuite, utilise les blocs `dire` {: class = "block3looks"} pour créer un compte à rebours, puis envoyer à tous un message `start` {: class = "block3events"}.
 
-![finish line sprite](images/finish-line-sprite.png)
+![sprite de la ligne d'arrivée](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+Tu peux également ajouter un son à ton compte à rebours.
 
-![finish line sprite](images/finish-line-sprite.png)
+![sprite de la ligne d'arrivée](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
