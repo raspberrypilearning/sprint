@@ -1,16 +1,16 @@
 --- challenge ---
 
-## Challenge: Add a spectator
+## Défi : Ajouter un spectateur
 
-Your project includes a couple of spectator sprites – click the ‘show’ icon for one to display it on the stage.
+Ton projet inclut quelques sprites spectateurs – clique sur l’icône « montrer» pour l’afficher sur la scène.
 
-Can you add a spectator to your race? Can you make the spectator cheer when you reach the finish line?
+Peux-tu ajouter un spectateur à ta course ? Peux-tu faire encourager le spectateur lorsque tu atteins la ligne d'arrivée?
 
-![a spectator in the game](images/sprint-spectator.png)
+![un spectateur dans le jeu](images/sprint-spectator.png)
 
-Remember that the code you'll need is very similar to the code you've already added to your finish line and your tree.
+Rappelle-toi que le code dont tu auras besoin est très similaire au code que tu as déjà ajouté à ta ligne d'arrivée et à ton arbre.
 
-Here are some useful code blocks to help you:
+Voici quelques blocs de code utiles pour t'aider :
 
 ```blocks3
 when green flag clicked
@@ -33,7 +33,7 @@ change size by (1)
 wait until <key (left arrow v) pressed?>
 ```
 
-If you prefer, you can add another tree instead, or anything else you like!
+Si tu préféres, tu peux ajouter un autre arbre à la place, ou n'importe quoi d'autre que tu souhaites !
 
 
 --- /challenge ---
