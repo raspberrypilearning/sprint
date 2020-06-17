@@ -1,9 +1,9 @@
-start
+départ
 
 distance
 
-broken
+cassé
 
 normal
 
-time
+temps
