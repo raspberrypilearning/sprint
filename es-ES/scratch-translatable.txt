@@ -1,9 +1,9 @@
-start
+salida
 
-distance
+distancia
 
-broken
+roto
 
 normal
 
-time
+tiempo
