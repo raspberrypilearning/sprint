@@ -1,16 +1,16 @@
 --- challenge ---
 
-## Challenge: Add a spectator
+## Πρόκληση: Βάλε έναν θεατή
 
-Your project includes a couple of spectator sprites – click the ‘show’ icon for one to display it on the stage.
+Το έργο σου περιλαμβάνει δύο αντικείμενα θεατών - κάνε κλικ στο εικονίδιο «Προβολή» για να τα εμφανίζεις στη σκηνή.
 
-Can you add a spectator to your race? Can you make the spectator cheer when you reach the finish line?
+Μπορείς να προσθέσεις έναν θεατή στον αγώνα σου; Μπορείς να κάνεις τον θεατή να επευφημεί, όταν φτάνεις στην κορδέλα τερματισμού;
 
-![a spectator in the game](images/sprint-spectator.png)
+![ένας θεατής στο παιχνίδι](images/sprint-spectator.png)
 
-Remember that the code you'll need is very similar to the code you've already added to your finish line and your tree.
+Να θυμάσαι ότι ο κωδικός που θα χρειαστείς είναι παρόμοιος με τον κώδικα που έχεις ήδη προσθέσει στην κορδέλα τερματισμού και στο δέντρο.
 
-Here are some useful code blocks to help you:
+Ακολουθούν ορισμένα χρήσιμα μπλοκ κώδικα για να σε βοηθήσουν:
 
 ```blocks3
 when green flag clicked
@@ -33,7 +33,7 @@ change size by (1)
 wait until <key (left arrow v) pressed?>
 ```
 
-If you prefer, you can add another tree instead, or anything else you like!
+Αν προτιμάς, μπορείς να προσθέσεις ένα ακόμη δέντρο ή ο,τιδήποτε άλλο θέλεις εσύ!
 
 
 --- /challenge ---
