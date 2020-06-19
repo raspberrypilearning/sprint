@@ -1,10 +1,10 @@
-## Going the distance
+## Atravesando la distancia
 
-Let's move the finish line when the arrow keys are pressed.
+Movamos la línea de llegada cuando se presionan las teclas de flecha.
 
 --- task ---
 
-You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="block3variables"}.
+Quieres permitir que el jugador presione las teclas de flecha __hasta que haya corrido 100 metros__. Para ello, crea una nueva variable llamada `distancia`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,17 +12,17 @@ You want to allow the player to press the arrow keys __until they have run 100 m
 
 --- task ---
 
-You should see your new variable on the stage. Drag it to the top-right corner.
+Deberías ver tu nueva variable en el escenario. Arrástrala a la esquina superior derecha.
 
-![screenshot](images/sprint-distance-drag.png)
+![captura de pantalla](images/sprint-distance-drag.png)
 
 --- /task ---
 
 --- task ---
 
-Set the `distance`{:class="block3variables"} to 0 when the flag is clicked.
+Haz que `distancia`{:class="block3variables"} tome el valor 0 cuando se haga clic en la bandera.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -35,9 +35,9 @@ set size to (1) %
 
 --- task ---
 
-Once your race starts, your player should sprint __until they have run 100 meters__.
+Una vez que la carrera comience, tu jugador debería correr __hasta que haya recorrido 100 metros__.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -49,9 +49,9 @@ end
 
 --- task ---
 
-Add code so that your finish line gets a little bigger after the player presses the left arrow key. The distance should also increase.
+Añade código para que tu línea de llegada se haga un poco más grande después de que el jugador presiona la tecla de flecha izquierda. La distancia también debería aumentar.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -66,17 +66,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. You should see that the finish line gets bigger when the left arrow is pressed, but doesn't move along the track.
+Haz clic en la bandera verde para probar el proyecto. Deberías ver que la línea de meta se hace más grande cuando se presiona la flecha izquierda, pero no se mueve a lo largo de la pista.
 
-![finish line is bigger but in the same place](images/sprint-line-bug.png)
+![la línea de llegada es más grande pero se queda en el mismo lugar](images/sprint-line-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, you can add code to move the finish line down slightly each time a key is pressed.
+Para arreglar esto, puedes agregar código para mover la línea de meta ligeramente hacia abajo cada vez que se presiona una tecla.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -92,17 +92,17 @@ end
 
 --- task ---
 
-Test your project again and you should see the finish line move down the stage towards you.
+Vuelve a probar tu proyecto y verás que la línea de meta baja por el escenario como si se acercara a ti.
 
-![finish lines moves down the road](images/sprint-line-fix-test.png)
+![las líneas de llegada se mueven por el camino](images/sprint-line-fix-test.png)
 
 --- /task ---
 
 --- task ---
 
-You should then do the same for the right arrow key.
+Deberás hacer lo mismo con la tecla de la flecha derecha.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -122,17 +122,17 @@ end
 
 --- task ---
 
-If you click to see the finish line's costumes, you should see that there are 2.
+Si haces clic para ver los disfraces de la línea de llegada, verás que hay 2.
 
-![2 costumes](images/sprint-line-costumes.png)
+![2 disfraces](images/sprint-line-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can switch to the 'broken' costume (and end the game) at the end of the race. Remember to switch to the 'normal' costume at the start of the race!
+Puedes cambiar al disfraz 'roto' (y terminar el juego) al final de la carrera. ¡Recuerda cambiarte al disfraz 'normal' al comienzo de la carrera!
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -160,11 +160,11 @@ set [distance v] to [0]
 
 --- task ---
 
-If you want to play a sound at the end, you'll have change your `stop all`{:class="block3control"} block to `stop other scripts in sprite`{:class="block3control"}.
+Si quieres reproducir un sonido al final, tendrás que cambiar tu bloque `detener todos`{:class="block3control"} a `detener otros programas en el objeto`{:class="block3control"}.
 
-This means that the timer you'll create will stop counting, but the sound will still play.
+Esto significa que el temporizador que crearás dejará de contar, pero el sonido seguirá sonando.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 switch costume to (broken v)
@@ -174,15 +174,15 @@ switch costume to (broken v)
 
 --- /task ---
 
-Have you noticed that you can cheat your game by just holding down the left and right arrow keys?
+¿Te has dado cuenta de que puedes engañar tu juego simplemente manteniendo pulsadas las teclas de flecha izquierda y derecha?
 
 --- task ---
 
-To fix this, you need to make sure that each key is pressed __and then released__ before moving the finish line.
+Para arreglar esto, debes asegurarte de que cada tecla esté presionada __y luego liberada__ antes de mover la línea de llegada.
 
-Here's the code you'll need to add:
+Este es el código que necesitarás añadir:
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <key (left arrow v) pressed?>
@@ -190,9 +190,9 @@ wait until <key (left arrow v) pressed?>
 change size by (1)
 ```
 
-You'll need to do the same for the right arrow key.
+Tendrás que hacer lo mismo con la tecla de la flecha derecha.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <not <key (right arrow v) pressed?>>
