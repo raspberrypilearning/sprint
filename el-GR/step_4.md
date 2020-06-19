@@ -1,20 +1,20 @@
-## Who is the fastest?
+## Ποιος είναι πιο γρήγορος;
 
-Let's add a timer to your game, to see who can sprint the fastest.
+Ας προσθέσουμε ένα χρονόμετρο στο παιχνίδι σου, για να δούμε ποιος μπορεί να τρέξει πιο γρήγορα.
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+Δημιούργησε μία νέα μεταβλητή `χρόνος`{:class="block3variables"}. Θα εμφανιστεί στη σκηνή. Σύρε τη στην επάνω αριστερή γωνία.
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![μεταβλητή χρόνου στο κέντρο της σκηνής](images/sprint-timer-create.png)
 
 --- /task ---
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+Όρισε το χρόνο σε 0 στην αρχή του παιχνιδιού σου.
 
-![finish line sprite](images/finish-line-sprite.png)
+![αντικείμενο κορδέλας τερματισμού](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -29,9 +29,9 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+Βάλε αυτόν τον κώδικα για να μετράει το χρονόμετρο όταν ξεκινά το παιχνίδι.
 
-![finish line sprite](images/finish-line-sprite.png)
+![αντικείμενο κορδέλας τερματισμού](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+Δοκίμασε το έργο σου κάνοντας κλικ στην πράσινη σημαία. Θα πρέπει να δεις ότι το χρονόμετρο μετράει μέχρι να τρέξεις 100 μέτρα.
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![μεταβλητές χρόνου και απόστασης στη σκηνή](images/sprint-timer-test.png)
 
 --- /task ---
 
