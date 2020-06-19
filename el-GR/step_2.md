@@ -1,30 +1,30 @@
-## On your marks...
+## Στα ίχνη σου...
 
-Let's start by creating a race countdown.
+Ας ξεκινήσουμε δημιουργώντας ένα χρονόμετρο αγώνα.
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+Άνοιξε το αρχικό πρόγραμμα "Sprint" στο Scratch.
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**Σε σύνδεση**: άνοιξε το [αρχικό έργο](http://rpf.io/sprint-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**Εκτός σύνδεσης**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/sprint-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a road and finish line.
+Στο αρχικό έργο, θα δεις έναν δρόμο και μια κορδέλα τερματισμού.
 
-![starter projects](images/sprint-starter.png)
+![αρχικά έργα](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+Αρχικά, ας βάλουμε την κορδέλα τερματισμού στον ορίζοντα:
 
-![finish line sprite](images/finish-line-sprite.png)
+![αντικείμενο κορδέλας τερματισμού](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,17 +36,17 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+Εάν κάνεις κλικ στη σημαία για να ελέγξεις τον κώδικά σου, θα δεις την κορδέλα τερματισμού στο βάθος.
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![γραμμή τερματισμού στο βάθος](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+Στη συνέχεια, χρησιμοποίησε μπλοκ `πες`{:class="block3looks"} για να δημιουργήσεις μια αντίστροφη μέτρηση και μετά μετάδωσε το μήνυμα `έναρξη`{:class="block3events"} μήνυμα.
 
-![finish line sprite](images/finish-line-sprite.png)
+![αντικείμενο κορδέλας τερματισμού](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+Μπορείς επίσης να προσθέσεις έναν ήχο στην αντίστροφη μέτρηση.
 
-![finish line sprite](images/finish-line-sprite.png)
+![αντικείμενο κορδέλας τερματισμού](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
