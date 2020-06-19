@@ -1,7 +1,7 @@
 ---
 title: Sprint!
 hero_image: images/banner.png
-description: Use the arrow keys to get to the finish line as quickly as you can.
+description: Χρησιμοποίησε τα βελάκια για να φτάσεις τη γραμμή τερματισμού όσο πιο γρήγορα μπορείς.
 listed: true
 ingredient: false
 copyedit: true
@@ -9,17 +9,17 @@ version: 4
 last_tested: 2019-04-01
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: On your marks...
+    title: Στα ίχνη σου...
   - 
-    title: Going the distance
+    title: Διανύοντας την απόσταση
   - 
-    title: Who is the fastest?
+    title: Ποιος είναι πιο γρήγορος;
   - 
-    title: Adding scenery
+    title: Προσθήκη τοπίου
   - 
-    title: 'Challenge: Add a spectator'
+    title: 'Πρόκληση: Βάλε έναν θεατή'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Τι υπάρχει στη συνέχεια;'
