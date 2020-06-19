@@ -6,7 +6,7 @@
 
 قم بفتح مشروع البدء "السباق" في Scratch.
 
-**على الإنترنت**: قم بفتح المشروع الاولي[](https://scratch.mit.edu/projects/406230850){:target="_blank"}.
+**على الإنترنت**: قم بفتح [المشروع الاولي](https://scratch.mit.edu/projects/406230850){:target="_blank"}.
 
 اذا كنت تملك حساب على Scratch فيمكنك عمل نسخة بالضغط على **Remix**.
 
