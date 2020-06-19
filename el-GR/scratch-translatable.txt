@@ -1,9 +1,9 @@
-start
+έναρξη
 
-distance
+απόσταση
 
-broken
+κομμένη
 
-normal
+κανονική
 
-time
+χρόνος
