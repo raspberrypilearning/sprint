@@ -1,20 +1,20 @@
-## Who is the fastest?
+## ¿Quién es el más veloz?
 
-Let's add a timer to your game, to see who can sprint the fastest.
+Vamos a añadir un cronómetro a tu juego, para ver quién puede correr más rápido.
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+Crea una nueva variable `tiempo`{:class="block3variables"}. Aparecerá en el escenario. Arrástrala a la esquina superior derecha.
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![variable tiempo en el centro del escenario](images/sprint-timer-create.png)
 
 --- /task ---
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+Dale el valor 0 al comienzo de tu juego.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -29,9 +29,9 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+Añade este código para hacer que tu cronómetro empiece a contar cuando el juego comience.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de llegada](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+Prueba tu proyecto haciendo clic en la bandera verde. Deberías ver que tu cronómetro cuenta hasta que hayas recorrido 100 metros.
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![variables tiempo y distancia en el escenario](images/sprint-timer-test.png)
 
 --- /task ---
 
