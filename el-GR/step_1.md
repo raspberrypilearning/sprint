@@ -1,12 +1,12 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+Αυτή είναι η **Scratch 3** έκδοση του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Εισαγωγή
 
-You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
+Θα μάθεις πώς να δημιουργείς το δικό σου παιχνίδι σπριντ, στο οποίο θα πρέπει να χρησιμοποιήσεις το αριστερό και δεξί βέλος για να φτάσεις στη γραμμή τερματισμού όσο πιο γρήγορα μπορείς.
 
 --- no-print ---
 
@@ -19,53 +19,53 @@ You are going to learn how to create your own sprint game, in which you have to 
 
 --- print-only ---
 
-![complete project](images/sprint-final.png)
+![ολοκληρωμένο έργο](images/sprint-final.png)
 
 --- /print-only ---
 
 
 --- collapse ---
 ---
-title: What you will need
+title: Τι θα χρειαστείς
 ---
 
-### Hardware
+### Υλικό
 
-+ A computer capable of running Scratch
++ Ένας υπολογιστής ικανός να τρέχει το Scratch
 
-### Software
+### Λογισμικό
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Λήψεις
 
-The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+Το αρχικό project μπορεί να βρεθεί [εδώ](http://rpf.io/p/en/sprint-go){:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Τι θα μάθεις
 ---
 
-- How to animate sprites
-- How to use keyboard input
-- How to use broadcasts
+- Πώς να κάνεις τα αντικείμενα να κινούνται
+- Πώς να προκαλείς ενέργειες ανάλογα με την είσοδο του πληκτρολογίου
+- Πώς να χρησιμοποιείς τη μετάδοση μηνυμάτων
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+Πρόσθετες πληροφορίες για εκπαιδευτικούς
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/sprint/print)"{:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
