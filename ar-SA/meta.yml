@@ -1,0 +1,18 @@
+---
+title: السباق!
+hero_image: images/banner.png
+description: استخدم الأسهم للوصول إلى خط النهاية بأسرع ما يمكن.
+listed: true
+ingredient: false
+copyedit: true
+version: 4
+last_tested: 2019-04-01
+steps:
+  - title: المقدمة
+  - title: اِستعداد...
+  - title: قطع المسافة
+  - title: من هو الأسرع؟
+  - title: إضافة مشهد
+  - title: 'التحدي: إضافة مشجعين'
+    challenge: true
+  - title: 'ما التالي؟'
