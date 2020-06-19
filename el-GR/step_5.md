@@ -1,12 +1,12 @@
-## Adding scenery
+## Προσθήκη σκηνικού
 
-Let's code a tree to move as the player sprints.
+Ας κάνουμε ένα δέντρο να κινείται καθώς ο παίκτης τρέχει.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+Αρχικά, τοποθέτησε το δέντρο και κάνε το μικρό όταν κάνεις κλικ στη σημαία.
 
-![tree sprite](images/tree-sprite.png)
+![αντικείμενο δέντρο](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+Μόλις ξεκινήσει ο αγώνας, το δέντρο θα πρέπει να κινηθεί μέχρι ο παίκτης να τρέξει 100 μέτρα.
 
-![tree sprite](images/tree-sprite.png)
+![αντικείμενο δέντρο](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+Μόλις πατηθεί το αριστερό πλήκτρο (και απελευθερωθεί), το δέντρο θα πρέπει να μεγαλώσει και να κινηθεί - όπως και η γραμμή τερματισμού.
 
-![tree sprite](images/tree-sprite.png)
+![αντικείμενο δέντρο](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+Εάν δοκιμάσεις το δέντρο σου, θα δεις ότι κινείται προς τα κάτω, στο δρόμο.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![το δέντρο μετακινήθηκε στο δρόμο](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+Για να το διορθώσεις, προσθέστε κώδικα για να κάνεις το δέντρο να απομακρύνεται ελαφρώς από το δρόμο.
 
-![tree sprite](images/tree-sprite.png)
+![αντικείμενο δέντρο](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+Στη συνέχεια, πρέπει να κάνεις το ίδιο για το δεξί βελάκι. Έτσι πρέπει να φαίνεται ο κώδικας:
 
-![tree sprite](images/tree-sprite.png)
+![αντικείμενο δέντρο](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
