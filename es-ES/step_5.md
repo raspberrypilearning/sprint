@@ -1,12 +1,12 @@
-## Adding scenery
+## Añadiendo el paisaje
 
-Let's code a tree to move as the player sprints.
+Vamos a programar un árbol para que se mueva a medida que el jugador corre.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+Primero, coloca el árbol y hazlo pequeño cuando se haga clic en la bandera.
 
-![tree sprite](images/tree-sprite.png)
+![objeto árbol](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+Una vez que la carrera comience, el árbol deberá moverse hasta que el jugador haya recorrido 100 metros.
 
-![tree sprite](images/tree-sprite.png)
+![objeto árbol](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+Una vez presionada la tecla izquierda (y liberada), el árbol debería hacerse más grande y moverse - al igual que la línea de llegada.
 
-![tree sprite](images/tree-sprite.png)
+![objeto árbol](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+Si pruebas tu árbol, verás que se mueve hacia abajo, hacia la pista.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![árbol movido a la pista](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+Para solucionar esto, añade código para hacer que tu árbol se aleje un poco de la pista.
 
-![tree sprite](images/tree-sprite.png)
+![objeto árbol](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+Tendrás que hacer lo mismo con la tecla de la flecha derecha. Así es como debería verse tu código:
 
-![tree sprite](images/tree-sprite.png)
+![objeto árbol](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
