@@ -1,30 +1,30 @@
-## On your marks...
+## Em suas marcas...
 
-Let's start by creating a race countdown.
+Vamos começar criando uma contagem regressiva para a corrida.
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+Abra o projeto inicial 'Corrida' do Scratch.
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**Online**: abra o [projeto inicial](http://rpf.io/sprint-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**Offline**: abra o [projeto inicial](http://rpf.io/p/en/sprint-go){:target="_ blank"} no editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a road and finish line.
+No projeto inicial, você deve ver a pista e a linha de chegada.
 
-![starter projects](images/sprint-starter.png)
+![projetos iniciais](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+Para começar, vamos colocar a linha de chegada no horizonte:
 
-![finish line sprite](images/finish-line-sprite.png)
+![ator linha de chegada](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,17 +36,17 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+Se você clicar na bandeira para testar seu código, verá sua linha de chegada à distância.
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![linha de chegada à distância](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+Em seguida, use blocos `diga`{:class="block3looks"} para criar uma contagem regressiva, e então transmita uma mensagem `largar`{:class="block3events"}.
 
-![finish line sprite](images/finish-line-sprite.png)
+![ator linha de chegada](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+Você também pode adicionar um som à sua contagem regressiva.
 
-![finish line sprite](images/finish-line-sprite.png)
+![ator linha de chegada](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
