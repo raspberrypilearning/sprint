@@ -1,20 +1,20 @@
-## Who is the fastest?
+## 一番速いのはだれですか？
 
-Let's add a timer to your game, to see who can sprint the fastest.
+ゲームにタイマーを追加して、だれが一番速く走れるかをきそいましょう。
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+新しく`タイム` {:class="block3variables"}変数を作ります。 この変数はステージ上に表示されます。 変数を左上のすみにドラッグします。
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![ステージ中央にある「タイム」変数](images/sprint-timer-create.png)
 
 --- /task ---
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+ゲーム開始時にタイムを0にします。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -29,9 +29,9 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+ゲームが始まったらタイマーがカウントアップするコードを追加します。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+緑の旗をクリックしてプロジェクトをテストします。 100メートル走りきるまで、タイマーがカウントアップします。
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![ステージ上の「タイム」変数と「距離」変数](images/sprint-timer-test.png)
 
 --- /task ---
 
