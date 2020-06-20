@@ -1,7 +1,7 @@
 ---
-title: Sprint!
+title: Corrida!
 hero_image: images/banner.png
-description: Use the arrow keys to get to the finish line as quickly as you can.
+description: Use as setas do teclado para alcançar à linha de chegada o mais rápido possível.
 listed: true
 ingredient: false
 copyedit: true
@@ -9,17 +9,17 @@ version: 4
 last_tested: 2019-04-01
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: On your marks...
+    title: Em suas marcas...
   - 
-    title: Going the distance
+    title: Percorrendo a distância
   - 
-    title: Who is the fastest?
+    title: Quem é o mais rápido?
   - 
-    title: Adding scenery
+    title: Adicionando cenário
   - 
-    title: 'Challenge: Add a spectator'
+    title: 'Desafio: Adicione um espectador'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'E agora?'
