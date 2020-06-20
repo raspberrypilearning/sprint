@@ -130,7 +130,7 @@ Si tu cliques pour voir les costumes de la ligne d'arrivée, tu devrais voir qu'
 
 --- task ---
 
-Tu peux passer au costume 'cassé' (et terminer le jeu) à la fin de la course. N'oublie pas de passer au costume « normal » au début de la course!
+Tu peux passer au costume 'cassé' (et terminer le jeu) à la fin de la course. N'oublie pas de passer au costume « normal » au début de la course !
 
 ![sprite de la ligne d'arrivée](images/finish-line-sprite.png)
 
