@@ -44,9 +44,9 @@ set size to (1) %
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+次に、`と言う`{:class="block3looks"}ブロックを使って秒読みを行い、`スタート`{:class="block3events"}というメッセージを送ります。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+秒読みに音を追加することもできます。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
