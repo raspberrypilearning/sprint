@@ -1,12 +1,12 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+これはプロジェクトの**Scratch 3**バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/sprint-scratch2)もあります。
 
 --- /no-print ---
 
-## Introduction
+## はじめに
 
-You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
+100メートル走ゲームの作り方を学びます。左右の矢印 (やじるし) キーを使ってできるだけ早くゴールするゲームです。
 
 --- no-print ---
 
@@ -19,53 +19,53 @@ You are going to learn how to create your own sprint game, in which you have to 
 
 --- print-only ---
 
-![complete project](images/sprint-final.png)
+![完成 (かんせい) したプロジェクト](images/sprint-final.png)
 
 --- /print-only ---
 
 
 --- collapse ---
 ---
-title: What you will need
+title: 必要（ひつよう）なもの
 ---
 
-### Hardware
+### ハードウェア
 
-+ A computer capable of running Scratch
++ Scratch を実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### ダウンロード
 
-The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+基本 (きほん) のプロジェクトは [こちら](http://rpf.io/p/en/sprint-go){:target="_blank"}にあります。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 学ぶこと
 ---
 
-- How to animate sprites
-- How to use keyboard input
-- How to use broadcasts
+- スプライトの動かし方
+- キーボード入力の使い方
+- メッセージの使い方
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title：教育者向けの追加情報
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_ blank"}を使用してください。
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+[完成したプロジェクトはこちら](http://rpf.io/p/en/sprint-get){:target="_blank"}にあります。
 
 --- /collapse ---
 
