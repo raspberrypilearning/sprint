@@ -1,9 +1,9 @@
-start
+スタート
 
-distance
+距離
 
-broken
+ゴール時
 
-normal
+ゴール前
 
-time
+タイム
