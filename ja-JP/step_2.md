@@ -62,7 +62,7 @@ set size to (1) %
 
 --- task ---
 
-秒読みに音を追加することもできます。
+秒読みに音を追加 (ついか) することもできます。
 
 ![ゴールのスプライト](images/finish-line-sprite.png)
 
