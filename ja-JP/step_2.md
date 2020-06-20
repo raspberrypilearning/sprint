@@ -1,30 +1,30 @@
-## On your marks...
+## 位置 (いち) について...
 
-Let's start by creating a race countdown.
+レースの秒読みを作ることから始めましょう。
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+「100メートル走」の基本 (きほん) のプロジェクトを開きます。
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**オンライン**: [基本のプロジェクト](http://rpf.io/sprint-on){:target="_blank"}を開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Scratch アカウントを持っている場合は、 **リミックス**ボタンをクリックしてプロジェクトをコピーできます。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**オフライン**: オフラインエディターで[基本のプロジェクト](http://rpf.io/p/en/sprint-go){:target="_blank"}を開きます。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から Scratch オフラインエディターをダウンロードしてインストールできます。
 
-In the starter project, you should see a road and finish line.
+基本のプロジェクトを開くと、直線コースとゴールが表示 (ひょうじ) されます。
 
-![starter projects](images/sprint-starter.png)
+![基本のプロジェクト](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+まず、ゴールを水平線上におきます。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,9 +36,9 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+緑の旗 (はた) をクリックしてコードをテストすると、ゴールがはるか遠くに表示されます。
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![遠くにあるゴール](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
