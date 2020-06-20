@@ -1,16 +1,16 @@
 --- challenge ---
 
-## Challenge: Add a spectator
+## チャレンジ: 観客 (かんきゃく) を追加する
 
-Your project includes a couple of spectator sprites – click the ‘show’ icon for one to display it on the stage.
+プロジェクトには2人の観客のスプライトがふくまれています。「表示する」アイコンをクリックして、ステージに表示します。
 
-Can you add a spectator to your race? Can you make the spectator cheer when you reach the finish line?
+レースに観客を追加できますか？ あなたがゴールした時に観客が声援 (せいえん) を送るようにできますか?
 
-![a spectator in the game](images/sprint-spectator.png)
+![ゲームの観客](images/sprint-spectator.png)
 
-Remember that the code you'll need is very similar to the code you've already added to your finish line and your tree.
+必要なコードは、ゴールと木のスプライトにすでに追加したコードにとてもにていることに注意してください。
 
-Here are some useful code blocks to help you:
+役に立つコードブロックをいくつかしょうかいします。
 
 ```blocks3
 when green flag clicked
@@ -33,7 +33,7 @@ change size by (1)
 wait until <key (left arrow v) pressed?>
 ```
 
-If you prefer, you can add another tree instead, or anything else you like!
+かわりにべつの木を追加したり、他の好きなものを追加したりできます。
 
 
 --- /challenge ---
