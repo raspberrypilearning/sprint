@@ -130,9 +130,9 @@ end
 
 --- task ---
 
-レースが終わったときに「ゴール時」コスチュームに切りかえ 、そしてゲームを終わらせます。 Remember to switch to the 'normal' costume at the start of the race!
+レースが終わったときに「ゴール時」コスチュームに切りかえ 、そしてゲームを終わらせます。 レースの開始時に「ゴール前」のコスチュームに切りかえることをわすれないでください！
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -160,11 +160,11 @@ set [distance v] to [0]
 
 --- task ---
 
-If you want to play a sound at the end, you'll have change your `stop all`{:class="block3control"} block to `stop other scripts in sprite`{:class="block3control"}.
+さいごに音を再生したい場合は、`すべてを止める`{:class="block3control"}ブロックを`スプライトの他のスクリプトを止める`{:class="block3control"}にかえます。
 
-This means that the timer you'll create will stop counting, but the sound will still play.
+そうすれば、タイマーはカウントをやめますが、音の再生はつづきます。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 switch costume to (broken v)
@@ -174,15 +174,15 @@ switch costume to (broken v)
 
 --- /task ---
 
-Have you noticed that you can cheat your game by just holding down the left and right arrow keys?
+このコードでは、左右の矢印キーを押しつづければ走っていることになると気づきましたか？
 
 --- task ---
 
-To fix this, you need to make sure that each key is pressed __and then released__ before moving the finish line.
+これをなおすには、ゴールを移動させる前に、各キーが押され__そしてはなされる__ようにする必要があります。
 
-Here's the code you'll need to add:
+追加するコードは次のとおりです。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <key (left arrow v) pressed?>
@@ -190,9 +190,9 @@ wait until <key (left arrow v) pressed?>
 change size by (1)
 ```
 
-You'll need to do the same for the right arrow key.
+右矢印キーについても同じようにする必要があります。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <not <key (right arrow v) pressed?>>
