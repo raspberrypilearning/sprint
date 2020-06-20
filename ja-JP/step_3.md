@@ -1,10 +1,10 @@
-## Going the distance
+## ゴールまで走る
 
-Let's move the finish line when the arrow keys are pressed.
+矢印キーが押された (おされた) ときにゴールを動かしましょう。
 
 --- task ---
 
-You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="block3variables"}.
+プレーヤーが__100メートル走りきるまで__矢印キーを押せるようにします 。 そのために、`距離`{:class="block3variables"} (きょり) という新しい変数 (へんすう) を作ります。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,17 +12,17 @@ You want to allow the player to press the arrow keys __until they have run 100 m
 
 --- task ---
 
-You should see your new variable on the stage. Drag it to the top-right corner.
+ステージ上に新しい変数が表示されます。 それを右上のすみにドラッグします。
 
-![screenshot](images/sprint-distance-drag.png)
+![スクリーンショット](images/sprint-distance-drag.png)
 
 --- /task ---
 
 --- task ---
 
-Set the `distance`{:class="block3variables"} to 0 when the flag is clicked.
+緑の旗が押されたとき、`距離`{:class="block3variables"}を0にします。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -35,9 +35,9 @@ set size to (1) %
 
 --- task ---
 
-Once your race starts, your player should sprint __until they have run 100 meters__.
+レースが始まったら、プレーヤーは__100メートルの距離を__全力で走らなければなりません。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -49,9 +49,9 @@ end
 
 --- task ---
 
-Add code so that your finish line gets a little bigger after the player presses the left arrow key. The distance should also increase.
+コードを追加して、プレイヤーが左矢印キーを押したら、ゴールが少し大きくなるようにします。 走った距離もふやします。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -66,17 +66,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. You should see that the finish line gets bigger when the left arrow is pressed, but doesn't move along the track.
+緑の旗をクリックしてプロジェクトをテストします。 左矢印キーが押されるとゴールは大きくなりますが、コースにそって動いてはくれません。
 
-![finish line is bigger but in the same place](images/sprint-line-bug.png)
+![ゴールは大きくなるが、同じ場所にある](images/sprint-line-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, you can add code to move the finish line down slightly each time a key is pressed.
+これをなおすには、キーが押されるたびにゴールを少し下に移動 (いどう) するコードを追加します。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -92,9 +92,9 @@ end
 
 --- task ---
 
-Test your project again and you should see the finish line move down the stage towards you.
+もう一度プロジェクトをテストすると、ゴールが自分に向かって、ステージの下に移動するのがわかります。
 
-![finish lines moves down the road](images/sprint-line-fix-test.png)
+![コースにそって下るゴール](images/sprint-line-fix-test.png)
 
 --- /task ---
 
