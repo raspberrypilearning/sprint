@@ -1,12 +1,12 @@
-## Adding scenery
+## 風景 (ふうけい) を追加 (ついか) する
 
-Let's code a tree to move as the player sprints.
+プレーヤーが走っているのに合わせて移動する木をコーディングしましょう。
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+まず、木をおき、緑の旗が押されたときに小さくします。
 
-![tree sprite](images/tree-sprite.png)
+![木のスプライト](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+レースが始まったら、プレーヤーが100メートル走りきるまで木を動かします。
 
-![tree sprite](images/tree-sprite.png)
+![木のスプライト](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+左矢印キーが押され (そしてはなされ) ると、ゴールと同じように木は大きくなり、移動します。
 
-![tree sprite](images/tree-sprite.png)
+![木のスプライト](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+木のコードをテストすると、木は下に移動して行き、コース上に乗っかってしまいます。
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![コースに乗っかる木](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+これをなおすには、木をコードから少しはなしていくコードを追加します。
 
-![tree sprite](images/tree-sprite.png)
+![木のスプライト](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+右矢印キーについても同じようにする必要があります。 木のコードは次のようになります。
 
-![tree sprite](images/tree-sprite.png)
+![木のスプライト](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
