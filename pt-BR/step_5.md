@@ -1,12 +1,12 @@
-## Adding scenery
+## Adicionando cenário
 
-Let's code a tree to move as the player sprints.
+Vamos programar uma árvore para mover conforme o jogador corre.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+Primeiro, posicione a árvore e faça com que ela diminua quando a bandeira for clicada.
 
-![tree sprite](images/tree-sprite.png)
+![ator árvore](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+Uma vez que a corrida tenha começado, a árvore deve se mover até que o jogador tenha percorrido 100 metros.
 
-![tree sprite](images/tree-sprite.png)
+![ator árvore](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+Uma vez que a tecla para esquerda tenha sido pressionada (e liberada), a árvore deve ficar maior e se mover - assim como a linha de chegada.
 
-![tree sprite](images/tree-sprite.png)
+![ator árvore](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+Se você testar sua árvore, verá que ela se move para baixo, se aproximando da pista.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![árvore se aproximando da pista](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+Para corrigir isso, adicione código para fazer que sua árvore se afaste aos poucos da pista.
 
-![tree sprite](images/tree-sprite.png)
+![ator árvore](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+Você deve fazer o mesmo para a seta para a direita. Aqui está como o código da sua Árvore deve ficar:
 
-![tree sprite](images/tree-sprite.png)
+![ator árvore](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
