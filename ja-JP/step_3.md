@@ -100,9 +100,9 @@ end
 
 --- task ---
 
-You should then do the same for the right arrow key.
+右矢印キーについても同じようにしましょう。
 
-![finish line sprite](images/finish-line-sprite.png)
+![ゴールのスプライト](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -122,15 +122,15 @@ end
 
 --- task ---
 
-If you click to see the finish line's costumes, you should see that there are 2.
+ゴールのコスチュームをクリックして表示すると、2つのコスチュームがあることがわかります。
 
-![2 costumes](images/sprint-line-costumes.png)
+![2つのコスチューム](images/sprint-line-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can switch to the 'broken' costume (and end the game) at the end of the race. Remember to switch to the 'normal' costume at the start of the race!
+レースが終わったときに「ゴール時」コスチュームに切りかえ 、そしてゲームを終わらせます。 Remember to switch to the 'normal' costume at the start of the race!
 
 ![finish line sprite](images/finish-line-sprite.png)
 
