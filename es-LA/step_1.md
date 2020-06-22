@@ -15,7 +15,7 @@ Aprenderás a crear tu propio juego de carreras, en el que debes usar las teclas
   <img src="images/sprint-final.png">
 </div>
 
---- /no-print ---
+--- no-print ---
 
 --- print-only ---
 
@@ -65,7 +65,7 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 --- /no-print ---
 
-Puedes encontrar el [ proyecto concluido aquí ](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+Puedes encontrar el [proyecto concluido aquí](http://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
