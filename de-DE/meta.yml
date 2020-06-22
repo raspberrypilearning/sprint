@@ -1,7 +1,7 @@
 ---
 title: Sprint!
 hero_image: images/banner.png
-description: Use the arrow keys to get to the finish line as quickly as you can.
+description: Verwende die Pfeiltasten, um so schnell, wie möglich, zur Ziellinie zu gelangen.
 listed: true
 ingredient: false
 copyedit: true
@@ -9,17 +9,17 @@ version: 4
 last_tested: 2019-04-01
 steps:
   - 
-    title: Introduction
+    title: Einleitung
   - 
-    title: On your marks...
+    title: Auf die Plätze...
   - 
-    title: Going the distance
+    title: Die Entfernung überbrücken
   - 
-    title: Who is the fastest?
+    title: Wer ist der Schnellste?
   - 
-    title: Adding scenery
+    title: Szenerie hinzufügen
   - 
-    title: 'Challenge: Add a spectator'
+    title: 'Herausforderung: Füge einen Zuschauer hinzu'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Wie geht es weiter?'
