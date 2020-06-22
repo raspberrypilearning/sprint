@@ -1,10 +1,10 @@
-## Going the distance
+## Die Entfernung überbrücken
 
-Let's move the finish line when the arrow keys are pressed.
+Verschieben wir die Ziellinie, wenn die Pfeiltasten gedrückt werden.
 
 --- task ---
 
-You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="block3variables"}.
+Wir möchten dem Spieler erlauben, die Pfeiltasten zu drücken __bis er 100 Meter__ gelaufen ist. Erstelle dazu eine neue Variable mit dem Namen `Distanz`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ You want to allow the player to press the arrow keys __until they have run 100 m
 
 --- task ---
 
-You should see your new variable on the stage. Drag it to the top-right corner.
+Du solltest die neue Variable auf der Bühne sehen. Ziehe sie in die obere rechte Ecke.
 
 ![screenshot](images/sprint-distance-drag.png)
 
@@ -20,22 +20,22 @@ You should see your new variable on the stage. Drag it to the top-right corner.
 
 --- task ---
 
-Set the `distance`{:class="block3variables"} to 0 when the flag is clicked.
+Setze den `Abstand`{:class="block3variables"} auf 0, wenn auf die Flagge geklickt wird.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
 ```blocks3
-when green flag clicked
-+set [distance v] to [0]
-go to x: (0) y: (30)
-set size to (1) %
+Wenn die grüne Flagge angeklickt wird 
++setze [distance v] auf [0]
+gehe zu x: (0) y: (30)
+setze Größe auf (1) %
 ```
 
 --- /task ---
 
 --- task ---
 
-Once your race starts, your player should sprint __until they have run 100 meters__.
+Sobald das Rennen beginnt, soll der Spieler __sprinten bis er 100 Meter gelaufen__.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
@@ -49,7 +49,7 @@ end
 
 --- task ---
 
-Add code so that your finish line gets a little bigger after the player presses the left arrow key. The distance should also increase.
+Füge einen weiteren Code hinzu, damit deine Ziellinie etwas größer wird, nachdem der Spieler die linke Pfeiltaste gedrückt hat. Der Abstand sollte ebenfalls zunehmen.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
