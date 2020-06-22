@@ -19,7 +19,7 @@ Du wirst lernen, wie du dein eigenes Sprint Spiel erstellst, indem du die linke 
 
 --- print-only ---
 
-![complete project](images/sprint-final.png)
+![fertiges Projekt](images/sprint-final.png)
 
 --- /print-only ---
 
@@ -48,24 +48,24 @@ Das Start-Projekt findest du [hier](http://rpf.io/p/en/sprint-go){:target="_blan
 title: Was du lernen wirst
 ---
 
-- How to animate sprites
-- How to use keyboard input
-- How to use broadcasts
+- Wie man Figuren animiert
+- Wie man die Tastatureingabe verwendet
+- Wie man Nachrichten benutzt
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Zusätzliche Informationen für Pädagogen
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
