@@ -94,7 +94,7 @@ end
 
 Vuelve a probar tu proyecto y verás que la línea de meta baja por el escenario hacia ti.
 
-![las líneas de meta se mueven por la carretera](images/sprint-line-fix-test.png)
+![las líneas de meta se mueven por el camino](images/sprint-line-fix-test.png)
 
 --- /task ---
 
@@ -174,7 +174,7 @@ switch costume to (broken v)
 
 --- /task ---
 
-¿Te has dado cuenta de que puedes engañar a tu juego simplemente manteniendo presionadas las teclas de flecha izquierda y derecha?
+¿Te has dado cuenta de que puedes hacer trampa en tu juego simplemente manteniendo presionadas las teclas de flecha izquierda y derecha?
 
 --- task ---
 
