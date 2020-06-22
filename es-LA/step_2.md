@@ -1,30 +1,30 @@
-## On your marks...
+## En sus marcas...
 
-Let's start by creating a race countdown.
+Empecemos por crear una cuenta regresiva de carreras.
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+Abre el proyecto de iniciación de Scratch '¡Carrera!'.
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**En línea**: abre el [proyecto de iniciación](http://rpf.io/sprint-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**Sin conexión**: abre el [proyecto de iniciación](http://rpf.io/p/en/sprint-go){:target=_blank"} en el editor sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a road and finish line.
+En el proyecto de iniciación, deberías ver una carretera y una línea de meta.
 
-![starter projects](images/sprint-starter.png)
+![proyectos de iniciación](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+Para empezar, pongamos la línea de meta en el horizonte:
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de meta](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,17 +36,17 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+Si haces clic en la bandera para probar tu código, verás tu línea de meta en la distancia.
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![línea de meta en la distancia](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+A continuación, utiliza bloques `decir`{:class="block3looks"} para crear una cuenta regresiva y luego enviar un mensaje para `iniciar`{:class="block3events"}.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de meta](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+También puedes añadir un sonido a tu cuenta regresiva.
 
-![finish line sprite](images/finish-line-sprite.png)
+![objeto línea de meta](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
