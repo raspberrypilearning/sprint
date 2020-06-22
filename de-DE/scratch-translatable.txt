@@ -1,9 +1,9 @@
-start
+Start
 
-distance
+Entfernung
 
-broken
+gebrochen
 
-normal
+Normal
 
-time
+Zeit
