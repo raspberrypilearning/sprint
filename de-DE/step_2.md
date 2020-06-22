@@ -1,80 +1,80 @@
-## On your marks...
+## Auf die Plätze...
 
-Let's start by creating a race countdown.
+Beginnen wir mit einem Countdown für das Rennen.
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+Öffne das Scratch-Basisprojekt 'Sprint'.
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**Online**: Öffne das [Basisprojekt](http://rpf.io/sprint-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**Offline**: Öffne das [Basisprojekt](http://rpf.io/p/en/sprint-go){:target="_blank"} im Offline-Editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a road and finish line.
+Im Basisprojekt solltest du eine Straße und eine Ziellinie sehen.
 
-![starter projects](images/sprint-starter.png)
+![Basisprojekt](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+Lass uns zunächst die Ziellinie am Horizont platzieren:
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
-when green flag clicked
-go to x: (0) y: (30)
-set size to (1) %
+Wenn die grüne Flagge angeklickt wird
+gehe zu x: (0) y: (30)
+setze Größe auf (1) %
 ```
 
 --- /task ---
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+Wenn du auf die Flagge klickst, um deinen Code zu testen, siehst du deine Ziellinie in der Ferne.
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![Ziellinie in der Ferne](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+Verwende als Nächstes `sage`{: class = "block3looks"} -Blöcke, um einen Countdown zu erstellen, und sende dann eine `start`{: class = "block3events"} -Nachricht.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
-when green flag clicked
-go to x: (0) y: (30)
-set size to (1) %
-+say [3] for (1) seconds
-+say [2] for (1) seconds
-+say [1] for (1) seconds
-+broadcast (start v)
+Wenn die grüne Flagge angeklickt wird 
+gehe zu x: (0) y: (30)
+setze Größe auf (1) %
++sage [3] für (1) Sek
++sage [2] für (1) Sek
++sage [1] für (1) Sek
++Nachricht an alle (Start v)
 ```
 
 --- /task ---
 
 --- task ---
 
-You can also add a sound to your countdown.
+Du kannst deinem Countdown auch einen Sound hinzufügen.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
-when green flag clicked
-go to x: (0) y: (30)
-set size to (1) %
-say [3] for (1) seconds
-say [2] for (1) seconds
-say [1] for (1) seconds
-+start sound (Siren Whistle v)
-broadcast (start v)
+Wenn die grüne Flagge angeklickt wird 
+gehe zu x: (0) y: (30)
+setze Größe auf (1) %
+sage [3] für (1) Sek
+sage [2] für (1) Sek
+sage [1] für (1) Sek
++ spiele Klang (Siren Whistle v) 
+sende Nachricht an alle (Start v)
 ```
 
 --- /task ---
