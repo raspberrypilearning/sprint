@@ -1,0 +1,18 @@
+---
+title: '¡Carrera!'
+hero_image: images/banner.png
+description: Utiliza las teclas de flecha para llegar a la línea de meta tan rápido como puedas.
+listed: true
+ingredient: false
+copyedit: true
+version: 4
+last_tested: 2019-04-01
+steps:
+  - title: Introducción
+  - title: A sus marcas...
+  - title: Atravesando la distancia
+  - title: '¿Quién es el más veloz?'
+  - title: Añadiendo el paisaje
+  - title: 'Desafío: agrega un espectador'
+    challenge: true
+  - title: '¿Qué viene a continuación?'
