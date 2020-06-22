@@ -1,0 +1,9 @@
+salida
+
+distancia
+
+roto
+
+normal
+
+tiempo
