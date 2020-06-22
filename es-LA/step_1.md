@@ -1,12 +1,12 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+Esta es la versión **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Introducción
 
-You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
+Aprenderás a crear tu propio juego de carreras, en el que debes usar las teclas de flecha izquierda y derecha para llegar a la línea de meta lo más rápido posible.
 
 --- no-print ---
 
@@ -19,53 +19,53 @@ You are going to learn how to create your own sprint game, in which you have to 
 
 --- print-only ---
 
-![complete project](images/sprint-final.png)
+![proyecto concluido](images/sprint-final.png)
 
 --- /print-only ---
 
 
 --- collapse ---
 ---
-title: What you will need
+title: Lo que necesitarás
 ---
 
 ### Hardware
 
-+ A computer capable of running Scratch
++ Una computadora capaz de ejecutar Scratch
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [en línea](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff) {:target="_blank"})
 
-### Downloads
+### Descargas
 
-The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_blank"}.
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-- How to animate sprites
-- How to use keyboard input
-- How to use broadcasts
+Puedes encontrar el proyecto de iniciación [aquí](http://rpf.io/p/en/sprint-go){:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Lo que aprenderás
+---
+
+- Cómo animar objetos
+- Cómo usar la entrada del teclado
+- Cómo enviar mensajes
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Información adicional para educadores
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+Puedes encontrar el [ proyecto concluido aquí ](http://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
