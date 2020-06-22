@@ -1,9 +1,9 @@
-start
+iniciar
 
-distance
+distancia
 
-broken
+roto
 
 normal
 
-time
+tiempo
