@@ -1,10 +1,10 @@
-## Who is the fastest?
+## Wer ist der Schnellste?
 
-Let's add a timer to your game, to see who can sprint the fastest.
+Lass uns deinem Spiel einen Timer hinzufügen, um zu sehen, wer am schnellsten Sprinten kann.
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+Erstelle eine neue `Zeit`{:class="block3variables"} Variable. Die Variable wird auf der Bühne erscheinen. Ziehe sie in die obere linke Ecke.
 
 ![time variable in the centre of the stage](images/sprint-timer-create.png)
 
@@ -12,7 +12,7 @@ Create a new `time`{:class="block3variables"} variable. It will appear on the st
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+Setze die Zeit zu Beginn deines Spiels auf 0.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
@@ -29,7 +29,7 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+Füge diesen Code hinzu, damit der Timer zu Beginn des Spiels hochzählt.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
