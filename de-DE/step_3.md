@@ -25,10 +25,10 @@ Setze den `Abstand`{:class="block3variables"} auf 0, wenn auf die Flagge geklick
 ![finish line sprite](images/finish-line-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt wird 
-+setze [distance v] auf [0]
-gehe zu x: (0) y: (30)
-setze Größe auf (1) %
+when green flag clicked
++set [distance v] to [0]
+go to x: (0) y: (30)
+set size to (1) %
 ```
 
 --- /task ---
@@ -66,7 +66,7 @@ end
 
 --- task ---
 
-Click the green flag to test your project. You should see that the finish line gets bigger when the left arrow is pressed, but doesn't move along the track.
+Klick auf die grüne Flagge, um dein Projekt zu testen. Du solltest sehen, dass die Ziellinie größer wird wenn der linke Pfeil gedrückt wird, sich aber nicht entlang der Strecke bewegt.
 
 ![finish line is bigger but in the same place](images/sprint-line-bug.png)
 
@@ -74,7 +74,7 @@ Click the green flag to test your project. You should see that the finish line g
 
 --- task ---
 
-To fix this, you can add code to move the finish line down slightly each time a key is pressed.
+Um dies zu beheben, kannst du Code hinzufügen, um die Ziellinie bei jedem Tastendruck leicht nach unten zu verschieben.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
@@ -92,7 +92,7 @@ end
 
 --- task ---
 
-Test your project again and you should see the finish line move down the stage towards you.
+Teste dein Projekt erneut und du solltest sehen, wie sich die Ziellinie die Bühne hinunter auf dich zu bewegt.
 
 ![finish lines moves down the road](images/sprint-line-fix-test.png)
 
@@ -100,7 +100,7 @@ Test your project again and you should see the finish line move down the stage t
 
 --- task ---
 
-You should then do the same for the right arrow key.
+Du solltest das auch für die rechte Pfeiltaste tun.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
@@ -122,7 +122,7 @@ end
 
 --- task ---
 
-If you click to see the finish line's costumes, you should see that there are 2.
+Wenn Du auf den Reiter Kostüme klickst, siehst Du, dass es dort zwei Ziellinien gibt.
 
 ![2 costumes](images/sprint-line-costumes.png)
 
@@ -130,7 +130,7 @@ If you click to see the finish line's costumes, you should see that there are 2.
 
 --- task ---
 
-You can switch to the 'broken' costume (and end the game) at the end of the race. Remember to switch to the 'normal' costume at the start of the race!
+Du kannst am Ende des Rennens zum Kostüm 'broken' (kaputt) wechseln (und das Spiel beenden). Remember to switch to the 'normal' costume at the start of the race!
 
 ![finish line sprite](images/finish-line-sprite.png)
 
@@ -160,9 +160,9 @@ set [distance v] to [0]
 
 --- task ---
 
-If you want to play a sound at the end, you'll have change your `stop all`{:class="block3control"} block to `stop other scripts in sprite`{:class="block3control"}.
+Wenn du am Ende einen Klang abspielen möchtest, musst du den Block `stoppe alle`{: class = "block3control"} in `stoppe andere Skripte der Figur`{: class = "block3control"} ändern.
 
-This means that the timer you'll create will stop counting, but the sound will still play.
+Dies bedeutet, dass der Timer aufhört zu zählen, der Sound jedoch weiterhin abgespielt wird.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
@@ -174,13 +174,13 @@ switch costume to (broken v)
 
 --- /task ---
 
-Have you noticed that you can cheat your game by just holding down the left and right arrow keys?
+Hast Du bemerkt, dass man beim Spiel betrügen kann, indem man einfach die linke und rechte Pfeiltaste gedrückt hält?
 
 --- task ---
 
-To fix this, you need to make sure that each key is pressed __and then released__ before moving the finish line.
+Um das zu beheben, musst du sicherstellen, dass jede Taste gedrückt __und dann losgelassen__ wird, bevor die Ziellinie verschoben wird.
 
-Here's the code you'll need to add:
+Hier ist der Code, den du hinzufügen musst:
 
 ![finish line sprite](images/finish-line-sprite.png)
 
@@ -190,7 +190,7 @@ wait until <key (left arrow v) pressed?>
 change size by (1)
 ```
 
-You'll need to do the same for the right arrow key.
+Dasselbe musst du für die rechte Pfeiltaste tun.
 
 ![finish line sprite](images/finish-line-sprite.png)
 
