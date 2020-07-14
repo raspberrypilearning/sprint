@@ -1,10 +1,10 @@
-## Going the distance
+## 거리를 통과하다
 
-Let's move the finish line when the arrow keys are pressed.
+화살표 키를 누르면 결승선으로 이동합니다.
 
 --- task ---
 
-You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="block3variables"}.
+__플레이어들이 100미터를 뛸 동안__ 화살표 키를 누르도록 해야 합니다. 그러기 위해, `거리`{:class="block3variables"}라고 불리는 변수를 새로 만드세요.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,17 +12,17 @@ You want to allow the player to press the arrow keys __until they have run 100 m
 
 --- task ---
 
-You should see your new variable on the stage. Drag it to the top-right corner.
+무대에서 새로운 변수를 볼 수 있습니다. 오른쪽 상단으로 끕니다.
 
-![screenshot](images/sprint-distance-drag.png)
+![스크린샷](images/sprint-distance-drag.png)
 
 --- /task ---
 
 --- task ---
 
-Set the `distance`{:class="block3variables"} to 0 when the flag is clicked.
+깃발을 누를때 `거리`{:class="block3variables"}가 0이 되도록 설정합니다.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -35,9 +35,9 @@ set size to (1) %
 
 --- task ---
 
-Once your race starts, your player should sprint __until they have run 100 meters__.
+레이스가 시작되면 플레이어는 __100 미터를 달릴 때까지__ 전력질주해야합니다.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -49,9 +49,9 @@ end
 
 --- task ---
 
-Add code so that your finish line gets a little bigger after the player presses the left arrow key. The distance should also increase.
+플레이어가 왼쪽 화살표 키를 누를동안 결승선이 약간 커지도록 코드를 추가하십시오. 거리도 증가해야합니다.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -66,17 +66,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. You should see that the finish line gets bigger when the left arrow is pressed, but doesn't move along the track.
+녹색 깃발을 눌러 시작합니다. 왼쪽 화살표를 누르면 결승선이 커지지만 트랙을 따라 이동하지는 않습니다.
 
-![finish line is bigger but in the same place](images/sprint-line-bug.png)
+![결승선은 더 커지지만 같은 장소에 있습니다.](images/sprint-line-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, you can add code to move the finish line down slightly each time a key is pressed.
+이 문제를 해결하기 위해 키를 누를 때마다 결승선을 약간 아래로 이동하는 코드를 추가 할 수 있습니다.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -92,17 +92,17 @@ end
 
 --- task ---
 
-Test your project again and you should see the finish line move down the stage towards you.
+프로젝트를 다시 테스트하면 결승선이 자신을 향해 점점 아래로 이동하는 것을 볼 수 있습니다.
 
-![finish lines moves down the road](images/sprint-line-fix-test.png)
+![결승전을 도로 아래로 이동](images/sprint-line-fix-test.png)
 
 --- /task ---
 
 --- task ---
 
-You should then do the same for the right arrow key.
+그런 다음 오른쪽 화살표 키에 대해서도 동일하게 수행해야 합니다.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -122,17 +122,17 @@ end
 
 --- task ---
 
-If you click to see the finish line's costumes, you should see that there are 2.
+결승선의 모양을 클릭하면 2개를 볼수 있습니다.
 
-![2 costumes](images/sprint-line-costumes.png)
+![두개의 모양](images/sprint-line-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can switch to the 'broken' costume (and end the game) at the end of the race. Remember to switch to the 'normal' costume at the start of the race!
+레이스가 끝나면 '깨진'모양으로 전환하고 게임을 종료 할 수 있습니다. 레이스가 시작될 때 '보통'의상으로 전환해야 합니다!
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -160,11 +160,11 @@ set [distance v] to [0]
 
 --- task ---
 
-If you want to play a sound at the end, you'll have change your `stop all`{:class="block3control"} block to `stop other scripts in sprite`{:class="block3control"}.
+마지막에 소리를 재생하려면 `모두 중지` {:class="block3control"}블럭을 `스프라이트 안에 있는 다른 스크립트 중지`{:class="block3control"}블럭으로 바꿔야 합니다.
 
-This means that the timer you'll create will stop counting, but the sound will still play.
+이것은 당신이 만들 타이머는 카운트를 멈추지만 사운드는 여전히 재생됨을 의미합니다.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 switch costume to (broken v)
@@ -174,15 +174,15 @@ switch costume to (broken v)
 
 --- /task ---
 
-Have you noticed that you can cheat your game by just holding down the left and right arrow keys?
+왼쪽 및 오른쪽 화살표 키만 누르고 있으면 게임을 통과 할수 있다는 것을 알고 있습니까?
 
 --- task ---
 
-To fix this, you need to make sure that each key is pressed __and then released__ before moving the finish line.
+이 문제를 해결하려면 결승선을 이동하기 전에 각 키를 __눌렀다가 놓아야 합니다__.
 
-Here's the code you'll need to add:
+필요한 코드는 다음과 같습니다:
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <key (left arrow v) pressed?>
@@ -190,9 +190,9 @@ wait until <key (left arrow v) pressed?>
 change size by (1)
 ```
 
-You'll need to do the same for the right arrow key.
+그런 다음 오른쪽 화살표 키에 대해서도 동일하게 수행해야 합니다.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <not <key (right arrow v) pressed?>>
