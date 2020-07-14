@@ -1,20 +1,20 @@
-## Who is the fastest?
+## 누가 가장 빠릅니까?
 
-Let's add a timer to your game, to see who can sprint the fastest.
+누가 가장 빠르게 전력질주 할 수 있는지 알아보기 위해 게임에 타이머를 추가해 보겠습니다.
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+새 변수`시간`{:class="block3variables"}를 만들고 '지연 시간'이라는 이름을 붙이세요 무대에 나타납니다. 오른쪽 상단으로 끕니다.
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![무대 중앙의 시간 변수](images/sprint-timer-create.png)
 
 --- /task ---
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+게임을 시작할 때 시간을 0으로 설정하십시오.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -29,9 +29,9 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+게임이 시작될 때 타이머를 카운트하려면 이 코드를 추가하십시오.
 
-![finish line sprite](images/finish-line-sprite.png)
+![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+녹색 깃발을 클릭하여 프로젝트를 테스트 해보세요. 100 미터를 전력질주 할 때까지 타이머가 작동하는 것을 볼 수 있습니다.
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![스테이지의 시간 및 거리 변수](images/sprint-timer-test.png)
 
 --- /task ---
 
