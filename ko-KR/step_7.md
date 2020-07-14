@@ -1,10 +1,10 @@
-## What next?
+## 더 나아가기
 
-Take a look at the [Beat the goalie](https://projects.raspberrypi.org/en/projects/beat-the-goalie) Scratch project.
+[골키퍼를 이겨라](https://projects.raspberrypi.org/en/projects/beat-the-goalie) 스크래치 프로젝트를 보세요.
 
 --- no-print ---
 
-Click the green flag to begin. Use the left and right arrow keys to control the goalie and press <kbd>space</kbd> to kick the ball.
+녹색 깃발을 눌러 시작합니다. 왼쪽 및 오른쪽 화살표 키를 사용하여 골키퍼를 제어하고 공을 차기 위해 <kbd>스페이스</kbd>를 누르세요
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/285942132/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,6 +14,6 @@ Click the green flag to begin. Use the left and right arrow keys to control the 
 
 --- print-only ---
 
-![game screenshot](images/goalie-final.png)
+![게임 스크린샷](images/goalie-final.png)
 
 --- /print-only ---
