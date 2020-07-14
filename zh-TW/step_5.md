@@ -1,12 +1,12 @@
-## Adding scenery
+## 添加其他背景
 
-Let's code a tree to move as the player sprints.
+讓我們新增一棵樹，它會隨著玩家衝刺而移動。
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+首先，將給這棵樹放在一個固定位置，並且在點擊綠色旗子時，那棵樹會變小。
 
-![tree sprite](images/tree-sprite.png)
+![樹角色](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+比賽開始後，樹會開始移動，直到玩家跑完100米。
 
-![tree sprite](images/tree-sprite.png)
+![樹角色](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+按下（釋放）左鍵後，那棵樹應該會越變越大並且像你在移動 - 就跟終點線一樣。
 
-![tree sprite](images/tree-sprite.png)
+![樹角色](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+如果你測試寫好的程式，應該會看到那棵樹沿著跑道向下移動。
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![樹移到跑道上](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+解決這個問題方法就是，要增加一些程式邏輯，讓這棵樹可以稍微的偏離跑道。
 
-![tree sprite](images/tree-sprite.png)
+![樹角色](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+對右方向鍵編輯相同的程式邏輯。 你的程式看起來應該像這樣：
 
-![tree sprite](images/tree-sprite.png)
+![樹角色](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
