@@ -1,12 +1,12 @@
-## Adding scenery
+## 풍경 추가하기
 
-Let's code a tree to move as the player sprints.
+플레이어가 질주 할 때 움직일 나무를 코딩 해 봅시다.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+먼저 깃발을 클릭 할 때 나무를 배치하고 작게 만듭니다.
 
-![tree sprite](images/tree-sprite.png)
+![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+레이스가 시작되면 플레이어가 100 미터를 전력질주 할 때까지 나무가 움직여야합니다.
 
-![tree sprite](images/tree-sprite.png)
+![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+왼쪽 키를 눌렀다가 놓으면 결승선처럼 나무가 커지고 움직여야합니다.
 
-![tree sprite](images/tree-sprite.png)
+![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+나무를 테스트하면 나무가 트랙으로 아래쪽으로 이동하는 것을 볼 수 있습니다.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![나무가 트랙 위로 이동](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+이 문제를 해결하려면 코드를 추가하여 나무가 트랙에서 약간 떨어지도록 합니다.
 
-![tree sprite](images/tree-sprite.png)
+![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+그런 다음 오른쪽 화살표 키에 대해서도 동일하게 수행해야 합니다. 나무 코드는 다음과 같이 쓰여야 합니다:
 
-![tree sprite](images/tree-sprite.png)
+![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
