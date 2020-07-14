@@ -1,9 +1,9 @@
-start
+시작
 
-distance
+거리
 
-broken
+깨짐
 
-normal
+보통
 
-time
+시간
