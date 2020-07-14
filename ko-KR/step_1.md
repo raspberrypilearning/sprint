@@ -1,12 +1,12 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/sprint-scratch2)도 있습니다.
 
 --- /no-print ---
 
-## Introduction
+## 들어가며
 
-You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
+결승선에 빨리 도달하기 위해 왼쪽 및 오른쪽 화살표 키를 사용하는 여러분만의 전력질주 게임을 만드는 방법을 배우게 될 것입니다.
 
 --- no-print ---
 
@@ -19,53 +19,53 @@ You are going to learn how to create your own sprint game, in which you have to 
 
 --- print-only ---
 
-![complete project](images/sprint-final.png)
+![완료 된 프로젝트](images/sprint-final.png)
 
 --- /print-only ---
 
 
 --- collapse ---
 ---
-title: What you will need
+title: 준비물
 ---
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of running Scratch
++ 스크래치를 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_ blank"})
 
-### Downloads
+### 다운로드 목록
 
-The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+스타터 프로젝트는 [여기](http://rpf.io/p/en/sprint-go){:target="_blank"}를 클릭하면 열 수 있습니다.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 배우게 될 것
 ---
 
-- How to animate sprites
-- How to use keyboard input
-- How to use broadcasts
+- 스프라이트를 움직이는 방법
+- 키보드 입력을 사용하는 방법
+- 방송하기를 사용하는 방법
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: 교육자를 위한 추가 정보
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
+이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}을 사용하십시오.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+여기서 [완료된 프로젝트](http://rpf.io/p/en/sprint-get){:target="_blank"}.를 확인할 수 있습니다.
 
 --- /collapse ---
 
