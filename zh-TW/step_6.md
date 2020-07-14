@@ -1,16 +1,16 @@
 --- challenge ---
 
-## Challenge: Add a spectator
+## 挑戰：追加一位觀眾
 
-Your project includes a couple of spectator sprites – click the ‘show’ icon for one to display it on the stage.
+你的專案，可以增添一些觀眾來觀戰 - 點擊“顯示”圖標，以將其顯示在舞台上。
 
-Can you add a spectator to your race? Can you make the spectator cheer when you reach the finish line?
+你知道如何在你的比賽裡面，新增一位觀眾嗎？ 你知道如何讓你的觀眾在你抵達終點線時，替你歡呼嗎？
 
-![a spectator in the game](images/sprint-spectator.png)
+![遊戲中的觀眾](images/sprint-spectator.png)
 
-Remember that the code you'll need is very similar to the code you've already added to your finish line and your tree.
+請記得，你需要的程式和之前所寫的，跑到終點線以及那棵樹的程式非常相似。
 
-Here are some useful code blocks to help you:
+這些程式積木可以幫助你：
 
 ```blocks3
 when green flag clicked
@@ -33,7 +33,7 @@ change size by (1)
 wait until <key (left arrow v) pressed?>
 ```
 
-If you prefer, you can add another tree instead, or anything else you like!
+如果你願意，你還可以另外新增一棵樹或是其他你喜歡的東西！
 
 
 --- /challenge ---
