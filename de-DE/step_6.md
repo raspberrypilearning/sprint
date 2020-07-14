@@ -8,9 +8,9 @@ Kannst du deinem Rennen einen Zuschauer hinzufügen? Kannst du den Zuschauer zum
 
 ![ein Zuschauer im Spiel](images/sprint-spectator.png)
 
-Der Code den du benötigst, ist dem Code den du bereits zu der Ziellinie und dem Baum hinzugefügt hast, sehr ähnlich.
+Der Code, den du benötigst, ist dem Code, den du bereits zu der Ziellinie und dem Baum hinzugefügt hast, sehr ähnlich.
 
-Hier sind einige nützliche Codeblöcke, die dir helfen sollten:
+Hier sind einige nützliche Code-Blöcke, die dir helfen sollten:
 
 ```blocks3
 when green flag clicked
@@ -33,7 +33,7 @@ change size by (1)
 wait until <key (left arrow v) pressed?>
 ```
 
-Du kannst auch einen weiteren Baum hinzufügen, wenn dir das lieber ist. Oder alles was dir so einfällt!
+Du kannst auch einen weiteren Baum hinzufügen, wenn dir das lieber ist. Oder alles, was dir so einfällt!
 
 
 --- /challenge ---
