@@ -6,7 +6,7 @@ Lass uns deinem Spiel einen Timer hinzufügen, um zu sehen, wer am schnellsten S
 
 Erstelle eine neue `Zeit`{:class="block3variables"} Variable. Die Variable wird auf der Bühne erscheinen. Ziehe sie in die obere linke Ecke.
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![Zeitvariable in der Mitte der Bühne](images/sprint-timer-create.png)
 
 --- /task ---
 
@@ -14,7 +14,7 @@ Erstelle eine neue `Zeit`{:class="block3variables"} Variable. Die Variable wird 
 
 Setze die Zeit zu Beginn deines Spiels auf 0.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -31,7 +31,7 @@ set size to (1) %
 
 Füge diesen Code hinzu, damit der Timer zu Beginn des Spiels hochzählt.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+Teste Dein Projekt, indem Du auf die grüne Flagge klickst. Du solltest sehen, dass der Timer bis zu 100 Meter zählt.
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![Zeit- und Distanzvariablen auf der Bühne](images/sprint-timer-test.png)
 
 --- /task ---
 
