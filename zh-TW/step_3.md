@@ -1,10 +1,10 @@
-## Going the distance
+## 即將跑完全程
 
-Let's move the finish line when the arrow keys are pressed.
+當鍵盤左右方向鍵交替按鍵，讓我們離終點線更近。
 
 --- task ---
 
-You want to allow the player to press the arrow keys __until they have run 100 meters__. To do this, create a new variable called `distance`{:class="block3variables"}.
+玩家可以按壓鍵盤的左右方向鍵，__直到他們跑完100米__ 。 要做到這個，你要先創建一個新變數，將它命名為`距離`{:class="block3variables"}。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,17 +12,17 @@ You want to allow the player to press the arrow keys __until they have run 100 m
 
 --- task ---
 
-You should see your new variable on the stage. Drag it to the top-right corner.
+你會在舞台上看到新的變數。 拖曳到右上角。
 
-![screenshot](images/sprint-distance-drag.png)
+![截圖](images/sprint-distance-drag.png)
 
 --- /task ---
 
 --- task ---
 
-Set the `distance`{:class="block3variables"} to 0 when the flag is clicked.
+點擊綠色旗子時，設置`距離`{：class =“ block3variables”}設為0。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -35,9 +35,9 @@ set size to (1) %
 
 --- task ---
 
-Once your race starts, your player should sprint __until they have run 100 meters__.
+比賽開始後，玩家開始衝刺，__直到他們跑完100米__ 。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -49,9 +49,9 @@ end
 
 --- task ---
 
-Add code so that your finish line gets a little bigger after the player presses the left arrow key. The distance should also increase.
+讓我們增加一些程式，讓玩家在按下左方向鍵鍵時，終點線會看起來更大一些。 距離也應該增加一些。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -66,17 +66,17 @@ end
 
 --- task ---
 
-Click the green flag to test your project. You should see that the finish line gets bigger when the left arrow is pressed, but doesn't move along the track.
+現在，點擊綠色旗標來測試你的專案。 你應該有發覺到，當你按下左方向鍵時終點線有變大一些，但是它並沒有沿著軌跡移動。
 
-![finish line is bigger but in the same place](images/sprint-line-bug.png)
+![終點線變大了，但是仍在同一個地方。](images/sprint-line-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, you can add code to move the finish line down slightly each time a key is pressed.
+解決辦法：我們需要在原本的程式中再增加一些邏輯。每當玩家按下鍵盤鍵時，終點線會往下移動一些。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -92,17 +92,17 @@ end
 
 --- task ---
 
-Test your project again and you should see the finish line move down the stage towards you.
+讓我們再測試看看你寫的專案，現在你應該可以看到，那終點線正朝你的位置往下移動。
 
-![finish lines moves down the road](images/sprint-line-fix-test.png)
+![終點線沿著這條路往下移動](images/sprint-line-fix-test.png)
 
 --- /task ---
 
 --- task ---
 
-You should then do the same for the right arrow key.
+對右方向鍵編輯相同的程式邏輯。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -122,17 +122,17 @@ end
 
 --- task ---
 
-If you click to see the finish line's costumes, you should see that there are 2.
+如果點擊那終點線的造型，你應該會看到2個造型。
 
-![2 costumes](images/sprint-line-costumes.png)
+![2 個造型](images/sprint-line-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-You can switch to the 'broken' costume (and end the game) at the end of the race. Remember to switch to the 'normal' costume at the start of the race!
+你可以在比賽結束時切換到“破碎”的造型（並結束遊戲）。 記得要在比賽開始時換上“一般”的造型！
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -160,11 +160,11 @@ set [distance v] to [0]
 
 --- task ---
 
-If you want to play a sound at the end, you'll have change your `stop all`{:class="block3control"} block to `stop other scripts in sprite`{:class="block3control"}.
+如果你想在比賽結束時播放歡呼聲，請記得更改`全部停止` {：class =“ block3control”}積木`來終止在其他程式中的精靈貓` {：class =“ block3control”}。
 
-This means that the timer you'll create will stop counting, but the sound will still play.
+這表示你將要新增的計時器會停止計時，但是音效仍會持續播放。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 switch costume to (broken v)
@@ -174,15 +174,15 @@ switch costume to (broken v)
 
 --- /task ---
 
-Have you noticed that you can cheat your game by just holding down the left and right arrow keys?
+你有沒有注意到，你只需要按住左右方向鍵就可以破解遊戲？
 
 --- task ---
 
-To fix this, you need to make sure that each key is pressed __and then released__ before moving the finish line.
+為了解決這個問題，你需要確定玩家在抵達終點線之前，都有交替按下__然後釋放__左右方向按鍵。
 
-Here's the code you'll need to add:
+這是你需要添加的程式：
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <key (left arrow v) pressed?>
@@ -190,9 +190,9 @@ wait until <key (left arrow v) pressed?>
 change size by (1)
 ```
 
-You'll need to do the same for the right arrow key.
+並且對右方向鍵編輯相同的程式邏輯。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <not <key (right arrow v) pressed?>>
