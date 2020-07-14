@@ -1,12 +1,12 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/sprint-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/sprint-scratch2) 版本。
 
 --- /no-print ---
 
-## Introduction
+## 介紹
 
-You are going to learn how to create your own sprint game, in which you have to use the left and right arrow keys to get to the finish line as quickly as you can.
+你會學到如何做出專屬你的賽跑小遊戲。交替用←→左右方向按鍵，就可全力衝刺到終點線。
 
 --- no-print ---
 
@@ -19,53 +19,54 @@ You are going to learn how to create your own sprint game, in which you have to 
 
 --- print-only ---
 
-![complete project](images/sprint-final.png)
+![完成專案](images/sprint-final.png)
 
 --- /print-only ---
 
 
 --- collapse ---
 ---
-title: What you will need
+title: 你會用到
 ---
 
-### Hardware
+### 硬體
 
-+ A computer capable of running Scratch
++ 可跑 Scratch 的電腦
 
-### Software
+### 軟體
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
 
-### Downloads
+### 下載
 
-The starter project can be found [here](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+入門專案[由此下載](http://rpf.io/p/en/sprint-go){:target="_blank"}。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 你會學到
 ---
 
-- How to animate sprites
-- How to use keyboard input
-- How to use broadcasts
+- 如何讓你的角色動起來
+- 如何使用鍵盤輸入
+- 如何使用廣播
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: 給教師的其它資訊
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sprint/print){:target="_blank"}.
+如果你需要列印此專案，請使用[友善列印](https://projects.raspberrypi.org/en/projects/sprint/print)
+{:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/sprint-get){:target="_blank"}。
 
 --- /collapse ---
 
