@@ -1,9 +1,9 @@
-start
+開始
 
-distance
+距離
 
-broken
+破碎
 
-normal
+一般
 
-time
+時間
