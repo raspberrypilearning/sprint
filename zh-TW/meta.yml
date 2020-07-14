@@ -1,7 +1,7 @@
 ---
-title: Sprint!
+title: 全力衝刺!
 hero_image: images/banner.png
-description: Use the arrow keys to get to the finish line as quickly as you can.
+description: 讓我們藉由方向鍵的幫忙，全力衝刺到終點線。
 listed: true
 ingredient: false
 copyedit: true
@@ -9,17 +9,17 @@ version: 4
 last_tested: 2019-04-01
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: On your marks...
+    title: 各就各位...
   - 
-    title: Going the distance
+    title: 即將跑完全程
   - 
-    title: Who is the fastest?
+    title: 誰跑最快？
   - 
-    title: Adding scenery
+    title: 添加其他背景
   - 
-    title: 'Challenge: Add a spectator'
+    title: '挑戰：追加一位觀眾'
     challenge: true
   - 
-    title: 'What next?'
+    title: '然後呢？'
