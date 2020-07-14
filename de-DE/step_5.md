@@ -1,6 +1,6 @@
 ## Landschaft hinzufügen
 
-Lass uns einen Baum codieren, der sich bewegt, wenn der Spieler sprintet.
+Lass uns einen Baum programmieren, der sich bewegt, wenn der Spieler sprintet.
 
 --- task ---
 
@@ -61,7 +61,7 @@ Wenn Du den Baum testest, wirst Du feststellen, dass er sich auf dem Weg nach un
 
 --- task ---
 
-Um das zu beheben, füge einwen Code hinzu, damit sich der Baum leicht vom Weg entfernt.
+Um das zu beheben, füge einen Code hinzu, damit sich der Baum leicht vom Weg entfernt.
 
 ![Baumfigur](images/tree-sprite.png)
 
@@ -80,7 +80,7 @@ end
 
 --- task ---
 
-Mach das gleiche auch für die rechte Pfeiltaste. So sollte der Code deines Baums aussehen:
+Mache das gleiche auch für die rechte Pfeiltaste. So sollte der Code deines Baums aussehen:
 
 ![Baumfigur](images/tree-sprite.png)
 
