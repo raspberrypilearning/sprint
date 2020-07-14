@@ -1,0 +1,18 @@
+---
+title: Sprint!
+hero_image: images/banner.png
+description: Verwende die Pfeiltasten, um so schnell, wie möglich, zur Ziellinie zu gelangen.
+listed: true
+ingredient: false
+copyedit: true
+version: 4
+last_tested: 2019-04-01
+steps:
+  - title: Einleitung
+  - title: Auf die Plätze...
+  - title: Die Entfernung überbrücken
+  - title: Wer ist der Schnellste?
+  - title: Landschaft hinzufügen
+  - title: 'Herausforderung: Füge einen Zuschauer hinzu'
+    challenge: true
+  - title: 'Wie geht''s weiter?'
