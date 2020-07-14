@@ -1,30 +1,30 @@
-## On your marks...
+## 各就各位...
 
-Let's start by creating a race countdown.
+那我們就開始吧！建立比賽的倒數計時器。
 
 --- task ---
 
-Open the 'Sprint' Scratch starter project.
+打開 “全力衝刺” 這個專案的材料包。
 
-**Online**: open the [starter project](http://rpf.io/sprint-on){:target="_blank"}.
+**線上版**： 開啟 [入門專案](http://rpf.io/sprint-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果你有 Scratch 帳戶，你可以透過點擊**Remix**來創建副本並進行改編。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
+**離線版**：在離線編輯器裡開啟[入門專案](http://rpf.io/p/en/sprint-go){:target="_blank"}。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+如果你需要下載 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
 
-In the starter project, you should see a road and finish line.
+在入門專案中，你會看到一個跑道和終點線。
 
-![starter projects](images/sprint-starter.png)
+![入門專案](images/sprint-starter.png)
 
 --- /task ---
 
 --- task ---
 
-To start with, let's put the finish line on the horizon:
+首先，將終點線放置在水平面上。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -36,17 +36,17 @@ set size to (1) %
 
 --- task ---
 
-If you click the flag to test your code, you'll see your finish line in the distance.
+讓我們來測試你寫的程式。試試點擊綠色的旗子，你應該可以看到在遠處的終點線。
 
-![finish line in the distance](images/sprint-line-start-test-annotated.png)
+![遠處的終點線](images/sprint-line-start-test-annotated.png)
 
 --- /task ---
 
 --- task ---
 
-Next, use `say`{:class="block3looks"} blocks to create a countdown, and then broadcast a `start`{:class="block3events"} message.
+接下來，使用 `說出` {：class =“ block3looks”}積木來建立倒數計時器，然後廣播`開始` {：class =“ block3events”}訊號。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -62,9 +62,9 @@ set size to (1) %
 
 --- task ---
 
-You can also add a sound to your countdown.
+你還可以另外添加音效在你的倒數計時器上。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
