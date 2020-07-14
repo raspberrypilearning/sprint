@@ -1,12 +1,12 @@
-## Adding scenery
+## Landschaft hinzufügen
 
-Let's code a tree to move as the player sprints.
+Lass uns einen Baum codieren, der sich bewegt, wenn der Spieler sprintet.
 
 --- task ---
 
-First, position the tree and make it small when the flag is clicked.
+Positioniere zuerst den Baum und verkleinere ihn, wenn du auf die Flagge klickst.
 
-![tree sprite](images/tree-sprite.png)
+![Baumfigur](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -20,9 +20,9 @@ set size to (1) %
 
 --- task ---
 
-Once the race starts, the tree should move until the player has sprinted 100 meters.
+Sobald das Rennen beginnt, sollte sich der Baum bewegen, bis der Spieler die 100 Meter gesprintet ist.
 
-![tree sprite](images/tree-sprite.png)
+![Baumfigur](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -35,9 +35,9 @@ end
 
 --- task ---
 
-Once the left key has been pressed (and released), the tree should get bigger and move - just like the finish line.
+Sobald die linke Taste gedrückt (und losgelassen) wurde, sollte der Baum größer werden und sich bewegen - genau wie die Ziellinie.
 
-![tree sprite](images/tree-sprite.png)
+![Baumfigur](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -53,17 +53,17 @@ end
 
 --- task ---
 
-If you test your tree, you'll see that it moves downwards, onto the track.
+Wenn Du den Baum testest, wirst Du feststellen, dass er sich auf dem Weg nach unten bewegt.
 
-![tree moved onto the track](images/sprint-tree-bug.png)
+![Baum bewegte sich auf dem Weg](images/sprint-tree-bug.png)
 
 --- /task ---
 
 --- task ---
 
-To fix this, add code to make your tree move away from the track slightly.
+Um das zu beheben, füge einwen Code hinzu, damit sich der Baum leicht vom Weg entfernt.
 
-![tree sprite](images/tree-sprite.png)
+![Baumfigur](images/tree-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -80,9 +80,9 @@ end
 
 --- task ---
 
-You should also do the same for the right arrow key. Here's how your Tree's code should look:
+Mach das gleiche auch für die rechte Pfeiltaste. So sollte der Code deines Baums aussehen:
 
-![tree sprite](images/tree-sprite.png)
+![Baumfigur](images/tree-sprite.png)
 
 ```blocks3
 when green flag clicked
