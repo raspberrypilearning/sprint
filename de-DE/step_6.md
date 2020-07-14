@@ -6,7 +6,7 @@ Dein Projekt enthält einige Zuschauer-Figuren. Klicke auf das Symbol "Anzeigen"
 
 Kannst du deinem Rennen einen Zuschauer hinzufügen? Kannst du den Zuschauer zum Jubeln bringen, wenn du die Ziellinie erreicht?
 
-![a spectator in the game](images/sprint-spectator.png)
+![ein Zuschauer im Spiel](images/sprint-spectator.png)
 
 Der Code den du benötigst, ist dem Code den du bereits zu der Ziellinie und dem Baum hinzugefügt hast, sehr ähnlich.
 
