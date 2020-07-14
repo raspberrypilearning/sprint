@@ -1,20 +1,20 @@
-## Who is the fastest?
+## 誰跑最快？
 
-Let's add a timer to your game, to see who can sprint the fastest.
+讓我們在的遊戲中添加一個計時器，看看誰可以跑得最快。
 
 --- task ---
 
-Create a new `time`{:class="block3variables"} variable. It will appear on the stage. Drag it to the top-left corner.
+建立一個新的`時間`{:class="block3variables"}變數。 它會呈現在舞台上。 拖曳到左上角。
 
-![time variable in the centre of the stage](images/sprint-timer-create.png)
+![舞台中央的時間變數。](images/sprint-timer-create.png)
 
 --- /task ---
 
 --- task ---
 
-Set the time to 0 at the start of your game.
+在遊戲開始時將時間設置為0。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -29,9 +29,9 @@ set size to (1) %
 
 --- task ---
 
-Add this code to make your timer count up when the game starts.
+新增以下這些程式邏輯，可以讓你的計時器在遊戲開始時開始計時。
 
-![finish line sprite](images/finish-line-sprite.png)
+![終點線精靈貓](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -45,9 +45,9 @@ end
 
 --- task ---
 
-Test your project by clicking the green flag. You should see your timer counts up until you've sprinted 100 meters.
+點擊綠旗測試你的程式。 你應該會看到計時器開始計時，直到完成100米衝刺。
 
-![time and distance variables on the stage](images/sprint-timer-test.png)
+![舞台上的時間和距離變數。](images/sprint-timer-test.png)
 
 --- /task ---
 
