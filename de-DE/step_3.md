@@ -14,7 +14,7 @@ Wir möchten dem Spieler erlauben, die Pfeiltasten zu drücken __bis er 100 Mete
 
 Du solltest die neue Variable auf der Bühne sehen. Ziehe sie in die obere rechte Ecke.
 
-![screenshot](images/sprint-distance-drag.png)
+![Screenshot](images/sprint-distance-drag.png)
 
 --- /task ---
 
@@ -22,7 +22,7 @@ Du solltest die neue Variable auf der Bühne sehen. Ziehe sie in die obere recht
 
 Setze den `Abstand`{:class="block3variables"} auf 0, wenn auf die Flagge geklickt wird.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -37,7 +37,7 @@ set size to (1) %
 
 Sobald das Rennen beginnt, soll der Spieler __sprinten bis er 100 Meter gelaufen__.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -51,7 +51,7 @@ end
 
 Füge einen weiteren Code hinzu, damit deine Ziellinie etwas größer wird, nachdem der Spieler die linke Pfeiltaste gedrückt hat. Der Abstand sollte ebenfalls zunehmen.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -68,7 +68,7 @@ end
 
 Klick auf die grüne Flagge, um dein Projekt zu testen. Du solltest sehen, dass die Ziellinie größer wird wenn der linke Pfeil gedrückt wird, sich aber nicht entlang der Strecke bewegt.
 
-![finish line is bigger but in the same place](images/sprint-line-bug.png)
+![Ziellinie ist größer, aber an der gleichen Stelle](images/sprint-line-bug.png)
 
 --- /task ---
 
@@ -76,7 +76,7 @@ Klick auf die grüne Flagge, um dein Projekt zu testen. Du solltest sehen, dass 
 
 Um dies zu beheben, kannst du Code hinzufügen, um die Ziellinie bei jedem Tastendruck leicht nach unten zu verschieben.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -94,7 +94,7 @@ end
 
 Teste dein Projekt erneut und du solltest sehen, wie sich die Ziellinie die Bühne hinunter auf dich zu bewegt.
 
-![finish lines moves down the road](images/sprint-line-fix-test.png)
+![Ziellinien bewegen sich die Straße hinunter](images/sprint-line-fix-test.png)
 
 --- /task ---
 
@@ -102,7 +102,7 @@ Teste dein Projekt erneut und du solltest sehen, wie sich die Ziellinie die Büh
 
 Du solltest das auch für die rechte Pfeiltaste tun.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -124,15 +124,15 @@ end
 
 Wenn Du auf den Reiter Kostüme klickst, siehst Du, dass es dort zwei Ziellinien gibt.
 
-![2 costumes](images/sprint-line-costumes.png)
+![2 Kostüme](images/sprint-line-costumes.png)
 
 --- /task ---
 
 --- task ---
 
-Du kannst am Ende des Rennens zum Kostüm 'broken' (kaputt) wechseln (und das Spiel beenden). Remember to switch to the 'normal' costume at the start of the race!
+Du kannst am Ende des Rennens zum Kostüm 'broken' (kaputt) wechseln (und das Spiel beenden). Denke daran zu Beginn des Rennens zum Kostüm „normal“ zu wechseln!
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 when I receive [start v]
@@ -164,7 +164,7 @@ Wenn du am Ende einen Klang abspielen möchtest, musst du den Block `stoppe alle
 
 Dies bedeutet, dass der Timer aufhört zu zählen, der Sound jedoch weiterhin abgespielt wird.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 switch costume to (broken v)
@@ -182,7 +182,7 @@ Um das zu beheben, musst du sicherstellen, dass jede Taste gedrückt __und dann 
 
 Hier ist der Code, den du hinzufügen musst:
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <key (left arrow v) pressed?>
@@ -192,7 +192,7 @@ change size by (1)
 
 Dasselbe musst du für die rechte Pfeiltaste tun.
 
-![finish line sprite](images/finish-line-sprite.png)
+![Ziellinienfigur](images/finish-line-sprite.png)
 
 ```blocks3
 wait until <not <key (right arrow v) pressed?>>
