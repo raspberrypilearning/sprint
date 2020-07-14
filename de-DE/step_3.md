@@ -20,7 +20,7 @@ Du solltest die neue Variable auf der Bühne sehen. Ziehe sie in die obere recht
 
 --- task ---
 
-Setze den `Abstand`{:class="block3variables"} auf 0, wenn auf die Flagge geklickt wird.
+Setze den `Distanz`{:class="block3variables"} auf 0, wenn auf die Flagge geklickt wird.
 
 ![Ziellinienfigur](images/finish-line-sprite.png)
 
