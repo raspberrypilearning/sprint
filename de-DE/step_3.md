@@ -4,7 +4,7 @@ Verschieben wir die Ziellinie, wenn die Pfeiltasten gedrückt werden.
 
 --- task ---
 
-Wir möchten dem Spieler erlauben, die Pfeiltasten zu drücken __bis er 100 Meter__ gelaufen ist. Erstelle dazu eine neue Variable mit dem Namen `Distanz`{:class="block3variables"}.
+Wir möchten dem Spieler erlauben, die Pfeiltasten zu drücken, __bis er 100 Meter__ gelaufen ist. Erstelle dazu eine neue Variable mit dem Namen `Distanz`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -35,7 +35,7 @@ set size to (1) %
 
 --- task ---
 
-Sobald das Rennen beginnt, soll der Spieler __sprinten bis er 100 Meter gelaufen__.
+Sobald das Rennen beginnt, soll der Spieler __sprinten bis er 100 Meter gelaufen__ ist.
 
 ![Ziellinienfigur](images/finish-line-sprite.png)
 
@@ -66,7 +66,7 @@ end
 
 --- task ---
 
-Klick auf die grüne Flagge, um dein Projekt zu testen. Du solltest sehen, dass die Ziellinie größer wird wenn der linke Pfeil gedrückt wird, sich aber nicht entlang der Strecke bewegt.
+Klick auf die grüne Flagge, um dein Projekt zu testen. Du solltest sehen, dass die Ziellinie größer wird, wenn der linke Pfeil gedrückt wird, sich aber nicht entlang der Strecke bewegt.
 
 ![Ziellinie ist größer, aber an der gleichen Stelle](images/sprint-line-bug.png)
 
