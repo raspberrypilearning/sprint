@@ -15,7 +15,7 @@ Aprenderás a crear tu propio juego de carreras, en el que debes usar las teclas
   <img src="images/sprint-final.png">
 </div>
 
---- no-print ---
+--- /no-print ---
 
 --- print-only ---
 
