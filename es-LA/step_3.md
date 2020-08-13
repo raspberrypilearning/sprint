@@ -14,7 +14,7 @@ Permitirás que el jugador presione las teclas de flecha __hasta que haya corrid
 
 Deberías ver tu nueva variable en el escenario. Arrástrala hasta la esquina superior derecha.
 
-![captura de pantalla](images/sprint-distancia-drag.png)
+![captura de pantalla](images/sprint-distance-drag.png)
 
 --- /task ---
 
