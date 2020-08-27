@@ -1,0 +1,18 @@
+---
+title: 전력질주!
+hero_image: images/banner.png
+description: 화살표 키를 사용하여 최대한 빨리 결승선에 도달하십시오.
+listed: true
+ingredient: false
+copyedit: true
+version: 4
+last_tested: 2019-04-01
+steps:
+  - title: 소개
+  - title: 당신의 마크에...
+  - title: 거리를 통과하다
+  - title: 누가 가장 빠릅니까?
+  - title: 풍경 추가하기
+  - title: '과제: 관중을 추가하기'
+    challenge: true
+  - title: '더 나아가기'
