@@ -25,8 +25,8 @@ set size to (1) %
 ![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 end
 
 ```
@@ -40,8 +40,8 @@ end
 ![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 +wait until <key (left arrow v) pressed?>
 +wait until <not  <key (left arrow v) pressed?>>
 +change size by (1)
@@ -66,8 +66,8 @@ end
 ![나무 스프라이트](images/tree-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 wait until <key (left arrow v) pressed?>
 wait until <not  <key (left arrow v) pressed?>>
 change size by (1)
@@ -90,8 +90,8 @@ show
 go to x: (-50) y: (20)
 set size to (1) %
 
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 wait until <key (left arrow v) pressed?>
 wait until <not  <key (left arrow v) pressed?>>
 change size by (1)

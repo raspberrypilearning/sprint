@@ -4,7 +4,7 @@
 
 --- /no-print ---
 
-## 들어가며
+## 소개
 
 결승선에 빨리 도달하기 위해 왼쪽 및 오른쪽 화살표 키를 사용하는 여러분만의 전력질주 게임을 만드는 방법을 배우게 될 것입니다.
 
@@ -35,7 +35,7 @@ title: 준비물
 
 ### 소프트웨어
 
-+ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_blank"})
++ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_blank"})
 
 ### 다운로드 목록
 

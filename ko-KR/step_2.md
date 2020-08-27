@@ -55,7 +55,7 @@ set size to (1) %
 +say [3] for (1) seconds
 +say [2] for (1) seconds
 +say [1] for (1) seconds
-+broadcast (start v)
++broadcast (시작 v)
 ```
 
 --- /task ---
@@ -74,7 +74,7 @@ say [3] for (1) seconds
 say [2] for (1) seconds
 say [1] for (1) seconds
 +start sound (Siren Whistle v)
-broadcast (start v)
+broadcast (시작 v)
 ```
 
 --- /task ---

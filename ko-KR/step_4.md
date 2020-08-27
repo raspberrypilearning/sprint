@@ -18,9 +18,9 @@
 
 ```blocks3
 when green flag clicked
-switch costume to (normal v)
-set [distance v] to [0]
-+ set [time v] to [0]
+switch costume to (보통 v)
+set [거리 v] to [0]
++ set [시간 v] to [0]
 go to x: (0) y: (30)
 set size to (1) %
 ```
@@ -34,10 +34,10 @@ set size to (1) %
 ![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
-when I receive [start v]
+when I receive [시작 v]
 forever
 wait (0.1) seconds
-change [time v] by (0.1)
+change [시간 v] by (0.1)
 end
 ```
 

@@ -26,7 +26,7 @@ __플레이어들이 100미터를 뛸 동안__ 화살표 키를 누르도록 해
 
 ```blocks3
 when green flag clicked
-+set [distance v] to [0]
++set [거리 v] to [0]
 go to x: (0) y: (30)
 set size to (1) %
 ```
@@ -40,8 +40,8 @@ set size to (1) %
 ![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 end 
 ```
 
@@ -54,11 +54,11 @@ end
 ![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 +wait until <key (left arrow v) pressed?>
 + change size by (1)
-+ change [distance v] by (1)
++ change [거리 v] by (1)
 end 
 ```
 
@@ -79,12 +79,12 @@ end
 ![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 wait until <key (left arrow v) pressed?>
 change size by (1)
 +change y by (-1.5)
-change [distance v] by (1)
+change [거리 v] by (1)
 end 
 ```
 
@@ -105,16 +105,16 @@ end
 ![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 wait until <key (left arrow v) pressed?>
 change size by (1)
 change y by (-1.5)
-change [distance v] by (1)
+change [거리 v] by (1)
 +wait until <key (right arrow v) pressed?>
 +change size by (1)
 +change y by (-1.5)
-+change [distance v] by (1)
++change [거리 v] by (1)
 end 
 ```
 
@@ -135,25 +135,25 @@ end
 ![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
-when I receive [start v]
-repeat until <(distance :: variables) = [100]>
+when I receive [시작 v]
+repeat until <(거리 :: variables) = [100]>
 wait until <key (left arrow v) pressed?>
 change size by (1)
 change y by (-1.5)
-change [distance v] by (1)
+change [거리 v] by (1)
 wait until <key (right arrow v) pressed?>
 change size by (1)
 change y by (-1.5)
-change [distance v] by (1)
+change [거리 v] by (1)
 end 
-+switch costume to (broken v)
++switch costume to (깨짐 v)
 +stop [all v]
 ```
 
 ```blocks3
 when green flag clicked
-+switch costume to (normal v)
-set [distance v] to [0]
++switch costume to (보통 v)
+set [거리 v] to [0]
 ```
 
 --- /task ---
@@ -167,7 +167,7 @@ set [distance v] to [0]
 ![결승선 스프라이트](images/finish-line-sprite.png)
 
 ```blocks3
-switch costume to (broken v)
+switch costume to (깨짐 v)
 + stop [other scripts in sprite v]
 + start sound (cheer v)
 ```

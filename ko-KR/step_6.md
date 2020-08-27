@@ -19,9 +19,9 @@ set size to (1) %
 
 go to x: (0) y: (0)
 
-when I receive [start v]
+when I receive [시작 v]
 
-repeat until <(distance :: variables) = [100]>
+repeat until <(거리 :: variables) = [100]>
 end
 
 change x by (10)
