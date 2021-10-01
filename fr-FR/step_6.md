@@ -4,7 +4,7 @@
 
 Ton projet inclut quelques sprites spectateurs – clique sur l’icône « montrer» pour l’afficher sur la scène.
 
-Peux-tu ajouter un spectateur à ta course ? Peux-tu faire encourager le spectateur lorsque tu atteins la ligne d'arrivée?
+Peux-tu ajouter un spectateur à ta course ? Peux-tu faire encourager le spectateur lorsque tu atteins la ligne d'arrivée ?
 
 ![un spectateur dans le jeu](images/sprint-spectator.png)
 
