@@ -61,7 +61,7 @@ title: Informations supplémentaires pour les éducateurs
 
 --- no-print ---
 
-Si vous avez besoin d'imprimer ce projet, utilisez la [version imprimable.](https://projects.raspberrypi.org/fr-FR/projects/sprint/print){:target="_blank"}.
+Si vous avez besoin d'imprimer ce projet, utilisez la [version imprimable](https://projects.raspberrypi.org/fr-FR/projects/sprint/print){:target="_blank"}.
 
 --- /no-print ---
 

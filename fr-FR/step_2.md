@@ -22,7 +22,7 @@ Dans le projet de démarrage, tu devrais voir une route et une ligne d'arrivée.
 
 --- task ---
 
-Pour commencer, mettons la ligne d'arrivée à l'horizon:
+Pour commencer, mettons la ligne d'arrivée à l'horizon :
 
 ![sprite de la ligne d'arrivée](images/finish-line-sprite.png)
 
