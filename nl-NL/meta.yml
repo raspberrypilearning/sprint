@@ -8,11 +8,13 @@ copyedit: true
 version: 4
 last_tested: 2019-04-01
 steps:
-  - title: Inleiding
-  - title: Op uw plaatsen...
-  - title: De afstand afleggen
-  - title: Wie is de snelste?
-  - title: Landschap toevoegen
-  - title: 'Uitdaging: voeg een toeschouwer toe'
-    challenge: true
-  - title: 'Wat kun je verder nog doen?'
+- title: Inleiding
+  completion: engaged
+- title: Op uw plaatsen...
+- title: De afstand afleggen
+- title: Wie is de snelste?
+  completion: internal
+- title: Landschap toevoegen
+- title: 'Uitdaging: voeg een toeschouwer toe'
+  challenge: true
+- title: Wat kun je verder nog doen?
