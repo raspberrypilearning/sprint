@@ -10,9 +10,9 @@ Beginnen wir mit einem Countdown für das Rennen.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: Öffne das [Basisprojekt](http://rpf.io/p/de-DE/sprint-go){:target="_blank"} im Offline-Editor.
+**Offline**: Öffne das [Basisprojekt](https://rpf.io/p/de-DE/sprint-go){:target="_blank"} im Offline-Editor.
 
-Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Im Basisprojekt solltest du eine Straße und eine Ziellinie sehen.
 

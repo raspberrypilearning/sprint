@@ -10,9 +10,9 @@
 
 اذا كنت تملك حساب على Scratch فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**غير متصل بالانترنت**: افتح [المشروع الاولي](http://rpf.io/p/ar-SA/sprint-go){:target="_blank"} عبر المحرر الموجود على جهازك.
+**غير متصل بالانترنت**: افتح [المشروع الاولي](https://rpf.io/p/ar-SA/sprint-go){:target="_blank"} عبر المحرر الموجود على جهازك.
 
-اذا كنت بحاجة الى تنزيل وتنصيب محرر Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اذا كنت بحاجة الى تنزيل وتنصيب محرر Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 في المشروع الاولي، سترى خط بداية و نهاية.
 
