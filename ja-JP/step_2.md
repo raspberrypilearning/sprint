@@ -10,9 +10,9 @@
 
 Scratch アカウントを持っている場合は、 **リミックス**ボタンをクリックしてプロジェクトをコピーできます。
 
-**オフライン**: オフラインエディターで[基本のプロジェクト](http://rpf.io/p/ja-JP/sprint-go){:target="_blank"}を開きます。
+**オフライン**: オフラインエディターで[基本のプロジェクト](https://rpf.io/p/ja-JP/sprint-go){:target="_blank"}を開きます。
 
-[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から Scratch オフラインエディターをダウンロードしてインストールできます。
+[rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}から Scratch オフラインエディターをダウンロードしてインストールできます。
 
 基本のプロジェクトを開くと、直線コースとゴールが表示 (ひょうじ) されます。
 

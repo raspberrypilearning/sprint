@@ -10,9 +10,9 @@ Abre el proyecto de iniciación de Scratch '¡Carrera!'.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión**: abre el [proyecto de iniciación](http://rpf.io/p/es-LA/sprint-go){:target=_blank"} en el editor sin conexión.
+**Sin conexión**: abre el [proyecto de iniciación](https://rpf.io/p/es-LA/sprint-go){:target=_blank"} en el editor sin conexión.
 
-Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 En el proyecto de iniciación, deberías ver una carretera y una línea de meta.
 

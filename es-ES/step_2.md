@@ -10,9 +10,9 @@ Abre el proyecto inicial Sprint (Carrera).
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Offline**: abre el [proyecto de iniciación](http://rpf.io/p/es-ES/sprint-go){:target=_blank"} en el editor offline.
+**Offline**: abre el [proyecto de iniciación](https://rpf.io/p/es-ES/sprint-go){:target=_blank"} en el editor offline.
 
-Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 En el proyecto inicial deberías ver un camino y una línea de llegada.
 

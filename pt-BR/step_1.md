@@ -35,11 +35,11 @@ title: O que você precisará
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ou [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ou [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-O projeto inicial pode ser encontrado [aqui](http://rpf.io/p/pt-BR/sprint-go){:target="_blank"}.
+O projeto inicial pode ser encontrado [aqui](https://rpf.io/p/pt-BR/sprint-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ Se você precisar imprimir este projeto, por favor use a [versão para impressã
 
 --- /no-print ---
 
-Você pode encontrar o [projeto concluído aqui](http://rpf.io/p/pt-BR/sprint-get){:target="_blank"}.
+Você pode encontrar o [projeto concluído aqui](https://rpf.io/p/pt-BR/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
