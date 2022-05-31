@@ -1,18 +1,23 @@
 ---
 title: Sprint!
 hero_image: images/banner.png
-description: Χρησιμοποίησε τα βελάκια για να φτάσεις τη γραμμή τερματισμού όσο πιο γρήγορα μπορείς.
+description: Χρησιμοποίησε τα βελάκια για να φτάσεις τη γραμμή τερματισμού όσο πιο
+  γρήγορα μπορείς.
 listed: true
 ingredient: false
 copyedit: true
 version: 4
 last_tested: 2019-04-01
 steps:
-  - title: Εισαγωγή
-  - title: Στα ίχνη σου...
-  - title: Διανύοντας την απόσταση
-  - title: Ποιος είναι πιο γρήγορος;
-  - title: Προσθήκη σκηνικού
-  - title: 'Πρόκληση: Βάλε έναν θεατή'
-    challenge: true
-  - title: 'Τι υπάρχει στη συνέχεια;'
+- title: Εισαγωγή
+- title: Στα ίχνη σου...
+- title: Διανύοντας την απόσταση
+  completion:
+  - engaged
+- title: Ποιος είναι πιο γρήγορος;
+- title: Προσθήκη σκηνικού
+  completion:
+  - internal
+- title: 'Πρόκληση: Βάλε έναν θεατή'
+  challenge: true
+- title: Τι υπάρχει στη συνέχεια;

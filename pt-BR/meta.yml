@@ -1,18 +1,23 @@
 ---
 title: Corrida!
 hero_image: images/banner.png
-description: Use as setas do teclado para alcançar à linha de chegada o mais rápido possível.
+description: Use as setas do teclado para alcançar à linha de chegada o mais rápido
+  possível.
 listed: true
 ingredient: false
 copyedit: true
 version: 4
 last_tested: 2019-04-01
 steps:
-  - title: Introdução
-  - title: Em suas marcas...
-  - title: Percorrendo a distância
-  - title: Quem é o mais rápido?
-  - title: Adicionando cenário
-  - title: 'Desafio: Adicione um espectador'
-    challenge: true
-  - title: 'E agora?'
+- title: Introdução
+- title: Em suas marcas...
+- title: Percorrendo a distância
+  completion:
+  - engaged
+- title: Quem é o mais rápido?
+- title: Adicionando cenário
+  completion:
+  - internal
+- title: 'Desafio: Adicione um espectador'
+  challenge: true
+- title: E agora?

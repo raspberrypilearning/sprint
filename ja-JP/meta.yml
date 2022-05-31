@@ -8,11 +8,15 @@ copyedit: true
 version: 4
 last_tested: 2019-04-01
 steps:
-  - title: はじめに
-  - title: 位置 (いち) について...
-  - title: ゴールまで走る
-  - title: 一番速いのはだれですか？
-  - title: 風景 (ふうけい) を追加する
-  - title: 'チャレンジ: 観客 (かんきゃく) を追加する'
-    challenge: true
-  - title: '次は何をしましょうか？'
+- title: はじめに
+- title: 位置 (いち) について...
+- title: ゴールまで走る
+  completion:
+  - engaged
+- title: 一番速いのはだれですか？
+- title: 風景 (ふうけい) を追加する
+  completion:
+  - internal
+- title: 'チャレンジ: 観客 (かんきゃく) を追加する'
+  challenge: true
+- title: 次は何をしましょうか？

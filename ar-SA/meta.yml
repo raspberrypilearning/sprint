@@ -8,11 +8,15 @@ copyedit: true
 version: 4
 last_tested: 2019-04-01
 steps:
-  - title: المقدمة
-  - title: اِستعداد...
-  - title: قطع المسافة
-  - title: من هو الأسرع؟
-  - title: إضافة مشهد
-  - title: 'التحدي: إضافة مشجعين'
-    challenge: true
-  - title: 'ما التالي؟'
+- title: المقدمة
+- title: اِستعداد...
+- title: قطع المسافة
+  completion:
+  - engaged
+- title: من هو الأسرع؟
+- title: إضافة مشهد
+  completion:
+  - internal
+- title: 'التحدي: إضافة مشجعين'
+  challenge: true
+- title: ما التالي؟
