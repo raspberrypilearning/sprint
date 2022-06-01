@@ -10,12 +10,14 @@ version: 4
 last_tested: 2019-04-01
 steps:
 - title: Introdução
-  completion: engaged
 - title: Em suas marcas...
 - title: Percorrendo a distância
+  completion:
+  - engaged
 - title: Quem é o mais rápido?
-  completion: internal
 - title: Adicionando cenário
+  completion:
+  - internal
 - title: 'Desafio: Adicione um espectador'
   challenge: true
 - title: E agora?
