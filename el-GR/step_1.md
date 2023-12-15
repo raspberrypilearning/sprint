@@ -35,11 +35,11 @@ title: Τι θα χρειαστείς
 
 ### Λογισμικό
 
-+ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Λήψεις
 
-Το αρχικό project μπορεί να βρεθεί [εδώ](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+The starter project can be found [here](https://rpf.io/p/en/sprint-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ title: Τι θα μάθεις
 
 --- /no-print ---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
