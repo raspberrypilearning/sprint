@@ -6,13 +6,13 @@
 
 打開 “全力衝刺” 這個專案的材料包。
 
-**線上版**： 開啟 [入門專案](http://rpf.io/sprint-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你可以透過點擊**Remix**來創建副本並進行改編。
 
-**離線版**：在離線編輯器裡開啟[入門專案](http://rpf.io/p/en/sprint-go){:target="_blank"}。
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-如果你需要下載 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 在入門專案中，你會看到一個跑道和終點線。
 
