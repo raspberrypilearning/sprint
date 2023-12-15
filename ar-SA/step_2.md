@@ -6,13 +6,13 @@
 
 قم بفتح مشروع البدء "السباق" في Scratch.
 
-**على الإنترنت**: قم بفتح [المشروع الاولي](http://rpf.io/sprint-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 اذا كنت تملك حساب على Scratch فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**غير متصل بالانترنت**: افتح [المشروع الاولي](http://rpf.io/p/en/sprint-go){:target="_blank"} عبر المحرر الموجود على جهازك.
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-اذا كنت بحاجة الى تنزيل وتنصيب محرر Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 في المشروع الاولي، سترى خط بداية و نهاية.
 
