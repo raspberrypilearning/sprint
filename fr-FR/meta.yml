@@ -14,12 +14,16 @@ steps:
     title: À vos marques...
   - 
     title: Parcourir la distance
+    completion:
+      - engaged
   - 
     title: Qui est le plus rapide ?
   - 
     title: Ajouter des décors
+    completion:
+      - internal
   - 
     title: 'Défi : Ajouter un spectateur'
     challenge: true
   - 
-    title: 'Et ensuite ?'
+    title: Et ensuite ?
