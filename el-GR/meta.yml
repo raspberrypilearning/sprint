@@ -14,12 +14,16 @@ steps:
     title: Στα ίχνη σου...
   - 
     title: Διανύοντας την απόσταση
+    completion:
+      - engaged
   - 
     title: Ποιος είναι πιο γρήγορος;
   - 
     title: Προσθήκη σκηνικού
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: Βάλε έναν θεατή'
     challenge: true
   - 
-    title: 'Τι υπάρχει στη συνέχεια;'
+    title: Τι υπάρχει στη συνέχεια;
