@@ -14,12 +14,16 @@ steps:
     title: 位置 (いち) について...
   - 
     title: ゴールまで走る
+    completion:
+      - engaged
   - 
     title: 一番速いのはだれですか？
   - 
     title: 風景 (ふうけい) を追加する
+    completion:
+      - internal
   - 
     title: 'チャレンジ: 観客 (かんきゃく) を追加する'
     challenge: true
   - 
-    title: '次は何をしましょうか？'
+    title: 次は何をしましょうか？
