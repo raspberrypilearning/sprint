@@ -14,12 +14,16 @@ steps:
     title: तुम्हारे प्राप्तांक पर (on your marks)...
   - 
     title: दूरी तक जाना
+    completion:
+      - engaged
   - 
     title: सबसे तेज कौन है?
   - 
     title: दृश्य जोड़ना
+    completion:
+      - internal
   - 
     title: 'चुनौती: एक दर्शक जोड़ें'
     challenge: true
   - 
-    title: 'आगे क्या है?'
+    title: आगे क्या है?
