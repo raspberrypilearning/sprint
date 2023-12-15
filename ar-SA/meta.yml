@@ -14,12 +14,16 @@ steps:
     title: اِستعداد...
   - 
     title: قطع المسافة
+    completion:
+      - engaged
   - 
     title: من هو الأسرع؟
   - 
     title: إضافة مشهد
+    completion:
+      - internal
   - 
     title: 'التحدي: إضافة مشجعين'
     challenge: true
   - 
-    title: 'ما التالي؟'
+    title: ما التالي؟
