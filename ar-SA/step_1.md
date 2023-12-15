@@ -35,11 +35,11 @@ title: ما ستحتاج إليه
 
 ### البرامج
 
-+ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### للتحميل
 
-برنامج البداية ستجدة [هنا ](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+The starter project can be found [here](https://rpf.io/p/en/sprint-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ title: معلومات إضافية للمعلمين
 
 --- /no-print ---
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
