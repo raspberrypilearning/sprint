@@ -6,13 +6,13 @@
 
 'स्प्रिंट' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/sprint-on){:target="_blank"} खोलें |
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 यदि आपके पास एक Scratch खाता (account) है तो आप **Remix** पर क्लिक करके कॉपी बना सकते हैं |
 
-**ऑफ़लाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/sprint-go){:target="_blank"} ऑफ़लाइन संपादक में खोलें ।
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-यदि आपको Scratch ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की जरूरत है, तो आप इसे [ rpf.io/scratchoff ](http://rpf.io/scratchoff) {: target= "_ blank"} पर ढूंढ सकते हैं I
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 स्टार्टर प्रोजेक्ट में, आपको एक सड़क और फिनिश लाइन दिखनी चाहिए।
 
