@@ -6,13 +6,13 @@ Laten we beginnen met het maken van het aftellen voor een race.
 
 Open het 'Sprint' Scratch-startproject.
 
-**Online**: open het [startproject](http://rpf.io/sprint-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: open het [startproject](http://rpf.io/p/en/sprint-go){:target="_blank"} in de offline editor.
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 In het startproject zou je een weg en eindstreep moeten zien.
 
