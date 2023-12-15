@@ -14,12 +14,16 @@ steps:
     title: Op uw plaatsen...
   - 
     title: De afstand afleggen
+    completion:
+      - engaged
   - 
     title: Wie is de snelste?
   - 
     title: Landschap toevoegen
+    completion:
+      - internal
   - 
     title: 'Uitdaging: voeg een toeschouwer toe'
     challenge: true
   - 
-    title: 'Wat kun je verder nog doen?'
+    title: Wat kun je verder nog doen?
