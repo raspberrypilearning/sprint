@@ -14,10 +14,14 @@ steps:
     title: En sus marcas...
   - 
     title: Atravesando la distancia
+    completion:
+      - engaged
   - 
     title: '¿Quién es el más rápido?'
   - 
     title: Añadiendo el paisaje
+    completion:
+      - internal
   - 
     title: 'Desafío: Añadir un espectador'
     challenge: true
