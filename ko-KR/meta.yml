@@ -14,12 +14,16 @@ steps:
     title: 당신의 마크에...
   - 
     title: 거리를 통과하다
+    completion:
+      - engaged
   - 
     title: 누가 가장 빠릅니까?
   - 
     title: 풍경 추가하기
+    completion:
+      - internal
   - 
     title: '과제: 관중을 추가하기'
     challenge: true
   - 
-    title: '더 나아가기'
+    title: 더 나아가기
