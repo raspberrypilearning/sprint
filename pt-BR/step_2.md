@@ -6,13 +6,13 @@ Vamos começar criando uma contagem regressiva para a corrida.
 
 Abra o projeto inicial 'Corrida' do Scratch.
 
-**Online**: abra o [projeto inicial](http://rpf.io/sprint-on){:target="_ blank"}.
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em **Remix**.
 
-**Offline**: abra o [projeto inicial](http://rpf.io/p/en/sprint-go){:target="_ blank"} no editor offline.
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 No projeto inicial, você deve ver a pista e a linha de chegada.
 
