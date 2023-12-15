@@ -6,13 +6,13 @@
 
 Άνοιξε το αρχικό πρόγραμμα "Sprint" στο Scratch.
 
-**Σε σύνδεση**: άνοιξε το [αρχικό έργο](http://rpf.io/sprint-on){:target="_ blank"}.
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Εκτός σύνδεσης**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/sprint-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 Στο αρχικό έργο, θα δεις έναν δρόμο και μια κορδέλα τερματισμού.
 
