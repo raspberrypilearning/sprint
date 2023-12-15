@@ -14,12 +14,16 @@ steps:
     title: Auf die Plätze...
   - 
     title: Die Entfernung überbrücken
+    completion:
+      - engaged
   - 
     title: Wer ist der Schnellste?
   - 
     title: Landschaft hinzufügen
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Füge einen Zuschauer hinzu'
     challenge: true
   - 
-    title: 'Wie geht es weiter?'
+    title: Wie geht es weiter?
