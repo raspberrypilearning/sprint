@@ -14,12 +14,16 @@ steps:
     title: On your marks...
   - 
     title: Going the distance
+    completion:
+      - engaged
   - 
     title: Who is the fastest?
   - 
     title: Adding scenery
+    completion:
+      - internal
   - 
     title: 'Challenge: Add a spectator'
     challenge: true
   - 
-    title: 'What next?'
+    title: What next?
