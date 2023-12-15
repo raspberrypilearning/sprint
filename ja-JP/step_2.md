@@ -6,13 +6,13 @@
 
 「100メートル走」の基本 (きほん) のプロジェクトを開きます。
 
-**オンライン**: [基本のプロジェクト](http://rpf.io/sprint-on){:target="_blank"}を開きます。
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 Scratch アカウントを持っている場合は、 **リミックス**ボタンをクリックしてプロジェクトをコピーできます。
 
-**オフライン**: オフラインエディターで[基本のプロジェクト](http://rpf.io/p/en/sprint-go){:target="_blank"}を開きます。
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から Scratch オフラインエディターをダウンロードしてインストールできます。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 基本のプロジェクトを開くと、直線コースとゴールが表示 (ひょうじ) されます。
 
