@@ -14,12 +14,16 @@ steps:
     title: 各就各位...
   - 
     title: 即將跑完全程
+    completion:
+      - engaged
   - 
     title: 誰跑最快？
   - 
     title: 添加其他背景
+    completion:
+      - internal
   - 
     title: '挑戰：追加一位觀眾'
     challenge: true
   - 
-    title: '然後呢？'
+    title: 然後呢？
