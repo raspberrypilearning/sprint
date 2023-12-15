@@ -6,13 +6,13 @@ Empecemos por crear una cuenta regresiva de carreras.
 
 Abre el proyecto de iniciación de Scratch '¡Carrera!'.
 
-**En línea**: abre el [proyecto de iniciación](http://rpf.io/sprint-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/sprint-on){:target="_blank"}.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión**: abre el [proyecto de iniciación](http://rpf.io/p/en/sprint-go){:target=_blank"} en el editor sin conexión.
+**Offline**: open the [starter project](https://rpf.io/p/en/sprint-go){:target="_blank"} in the offline editor.
 
-Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 En el proyecto de iniciación, deberías ver una carretera y una línea de meta.
 
