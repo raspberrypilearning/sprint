@@ -35,11 +35,11 @@ title: Ce qu'il te faut
 
 ### Logiciel
 
-+ Scratch 3 ([en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors ligne](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
-Le projet de démarrage peut être trouvé [ici](http://rpf.io/p/en/sprint-go){:target="_blank"}.
+The starter project can be found [here](https://rpf.io/p/en/sprint-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -65,7 +65,7 @@ Si vous avez besoin d'imprimer ce projet, utilisez la [ version imprimable. ](ht
 
 --- /no-print ---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/sprint-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/sprint-get){:target="_blank"}.
 
 --- /collapse ---
 
